@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EL-SHOP</title>
+    <link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+   
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<!-- Head 1 -->
+  <div class="container-fluid upcontainer">
+    <div class="container-sm ">
+        <nav class="navbar navbar-expand-lg navbar-light  justify-content-between">
+            <div class=" justify-content-start d-none d-lg-flex">
+                <div class="">
+                    <i class="bi bi-telephone-fill text-white"></i>
+                    <p class="d-inline text-light">+ 221 77 45 55</p>
+                </div>
+                <div class="ps-md-5">
+                    <i class="bi bi-envelope-fill text-light" ></i>
+                    <p class="d-inline text-light ps-1">support@elshop.io</p>
+                </div>
+            </div>
+            <div class="">
+              <div class=" navbar-collapse justify-content-end  " id="navbarNavDropdown" >
+                <ul class="navbar-nav flex-row">
+                  <li class="nav-item pt-2 pe-3  ">
+                    <i class="bi bi-geo-alt-fill text-light"></i>
+                    <a href="#" class="d-inline text-light ps-1 nav-link">Store Locations</a>
+                  </li>
+                  <li class="nav-item pt-2 pe-3 ">
+                    <i class="bi bi-truck text-light"></i>
+                    <a href="#" class="d-sm-inline d-none text-light ps-1 nav-link">Track your Order</a>
+                  </li>
+                  <li class="nav-item dropdown pe-3 li-bef ">
+                    <a class="  nav-link dropdown-toggle text-light gel-value" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     $ Dollar (US)
+                    </a>
+                    <ul class="dropdown-menu head-drop position-absolute " aria-labelledby="navbarDropdownMenuLink">
+                        <li class="d-md-block d-inline">
+                          <a class="dropdown-item gel-item" href="#">$ Dollar (US)</a>
+                        </li>
+                        <li>
+                          <div class="dropdown-item">
+                                <a class=" dropdown-item gel-item  d-inline px-0" href="#">₾ Lari (GE)</a>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown p-sm-0 pe-3">
+                    <a class="nav-link dropdown-toggle text-light lang-main" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      EN
+                    </a>
+                    <ul class="dropdown-menu lang-div  head-drop position-absolute" aria-labelledby="navbarDropdownMenuLink">
+                      <li  class="dropdown-item lang-item" data-text="EN">
+                          <img class="flag-imgs" src="../imgs/2634450_ensign_flag_kingdom_nation_icon.png" alt="">
+                          <a  class="dropdown-item d-inline px-0 "  href="#">EN</a>
+                      </li>
+                      <li  class="dropdown-item lang-item" data-text="RU">
+                          <img class="flag-imgs" src="../imgs/2634398_ensign_flag_nation_russia_icon.png" alt="">
+                          <a  class="dropdown-item d-inline px-0 "  href="#">RU</a>
+                      </li>
+                      <li  class="dropdown-item lang-item" data-text="GE">
+                          <img class="flag-imgs" src="../imgs/2634523_ensign_flag_georgia_nation_icon.png" alt="">
+                          <a  class="dropdown-item d-inline px-0 "  href="#">GE</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+</div>
+
+<!-- Search bar -->
+
+
+<div class="container-fluid pt-4 bg-white ">
+  <div class="container">
+      <div class="row">
+          <div class="col-xl-4 col-xxl-3 d-none col-lg-3 d-xl-block mb-2">
+              <div class="">
+                  <i class="bi bi-lightning-fill  light-icon"></i>
+                  <a href="../index.html" class="d-inline on-shop-text" >EL-SHOP</a>
+              </div>
+
+          </div>
+          <div class="col-lg-4 col-sm-6 srch-col col-xxl-6 d-inline d-sm-block position-relative pt-2">
+              <div class="overflow-srch position-sm-absolute position-relative">
+                <div class="container srch-cont ">
+                    <i class="bi bi-search srch-icon"></i>
+                    <input type="text" class="srch-inp " placeholder="Search..." >
+                </div>
+              </div>
+
+          </div>
+          <div class="col-lg-4 col-sm-6 col-xxl-3 pe-3  pt-2">
+            <div class="row">
+              <div class="col-md-6 d-flex justify-content-sm-around align-items-center justify-content-between flex-row-reverse flex-sm-row py-2 py-sm-0 ">
+                <i class="bi bi-x-lg main-search"></i>
+                <div class="position-relative main-bskt" >
+                  <p class="bskt-item"><span class="bskt-num">4</span></p>
+                  <i class="bi bi-basket bskt-icon"></i>
+                </div>
+                
+              </div>
+              <div class="col-md-6">
+                <button type="button" class="btn sign-btn w-100 w-sm-100 w-md-auto "><i class="bi bi-person-circle person-bef "></i></button>
+
+              </div>
+            </div>
+
+          </div>
+      </div>
+  </div>
+</div>
+
+
+        <!-- categories-->
+
+        <nav class="navbar navbar-expand-lg navbar-light navbar-shadow ps-2 ps-sm-0">
+          <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav categories-nav">
+                <a class="nav-link" href="../index.html">Main</a>
+                <a class="nav-link" href="categories.html">All Categories</a>
+
+                <a class="nav-link" href="items.html">TV & Monitord</a>
+
+                <a class="nav-link disabled" href="#">Smartphone</a>
+                <a class="nav-link disabled" href="#">Computer</a>
+                <a class="nav-link disabled" href="#">Gaming Equipments</a>
+                <a class="nav-link disabled" href="#">Headphones</a>
+                <a class="nav-link disabled" href="#">Speaker</a>
+                <a class="nav-link disabled" href="#"> <i class="bi bi-sun-fill text-warning"></i> <b>HOT DEALS</b></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        
+
+        <div class="container-fluid pt-5">
+            <div class="container-lg">
+                <div class="row">
+
+                            <!-- Img slider side -->
+
+
+                    <div class="col-md-6">
+                        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper9">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img class="item-lg-img" src="../imgs/HP-Pavilion-21.5-Inch-IPS-LED-HDMI-VGA-Monitor-1024x652.jpg" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img class="item-lg-img" src="../imgs/design-small.jpg" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img class="item-lg-img" src="../imgs/356088c3ce13e87cbc14a65f9b8337f1.jpg" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img class="item-lg-img" src="../imgs/Dell-U-Series-Monitor-2019-Model.jpg" />
+                          </div>
+                          
+                          
+                        </div>
+                        
+                      </div>
+                      <div thumbsSlider="" class="swiper mySwiper8 mx-3 pt-1">
+                          
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img class="item-sm-img" src="../imgs/HP-Pavilion-21.5-Inch-IPS-LED-HDMI-VGA-Monitor-1024x652.jpg" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img class="item-sm-img" src="../imgs/design-small.jpg" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img class="item-sm-img" src="../imgs/356088c3ce13e87cbc14a65f9b8337f1.jpg" />
+                          </div>
+                          <div class="swiper-slide">
+                            <img class="item-sm-img" src="../imgs/Dell-U-Series-Monitor-2019-Model.jpg " />
+                          </div>
+                          
+                          
+                        </div>
+                      </div>
+                      <div class="btn-group pt-5" role="group" aria-label="Basic example">
+                          <p class="pt-2 me-1 me-sm-3">Share</p>
+                        <button type="button" class="btn  soc-btns"><i class="bi bi-youtube"></i></button>
+                        <button type="button" class="btn  soc-btns"><i class="bi bi-linkedin"></i></button>
+                        <button type="button" class="btn  soc-btns"><i class="bi bi-twitter"></i></button>
+                        <button type="button" class="btn  soc-btns"><i class="bi bi-facebook"></i></button>
+                        <button type="button" class="btn  soc-btns"><i class="bi bi-instagram"></i></button>
+                      </div>
+
+
+                    </div>
+
+
+
+                        <!-- img description -->
+
+
+
+                    <div class="col-md-6 pt-3 pt-md-0">
+                        <div class="img-descr">
+                            <p class="text-secondary">SKU 12254887744</p>
+                             <h3>LED Monitor With High Quality In The World</h3>
+                             <div class="row justify-content-between pt-1">
+                                <div class="col pe-lg-2 pe-0 ">
+                                    <span class="d-flex">
+                                        <p class="orangeclr pe-2"><b>4.0</b></p>
+                                        <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                                        <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                                        <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                                        <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                                        <a class="text-secondary text-decoration-none">(144)</a>
+                                    </span>
+                                </div>
+                                <div class="col pe-lg-2 pe-0">
+                                    <i class="bi bi-check text-secondary fs-5 hrt-icon"></i>
+                                    <b>4320 Sold</b>
+
+                                </div>
+                                <div class="col pe-lg-2 pe-0">
+                                    <i class="bi bi-eye-fill fs-5 text-secondary hrt-icon"></i>
+                                    <b>1.4K Viewed</b>
+                                </div>
+                                <div class="col pe-lg-2 pe-0">
+                                    <i class="bi bi-heart-fill text-secondary fs-5 hrt-icon"></i>
+                                    <b class="orangeclr">Add</b>
+                                </div>
+
+
+                             </div>
+                             <div class="cat-price d-flex"> 
+                                 <b class="orangeclr fs-3 ">$980.00</b>
+                                 <p class="text-decoration-line-through text-secondary ps-2">$1050.00</p>
+                            </div>
+
+                            <p class="pt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus nobis dolor iste corrupti ea exercitationem voluptatibus! Debitis fugit totam explicabo quae laboriosam consequuntur, aut enim, quod eaque, omnis quam. Minima!</p>
+                            <ul class="dash-ul">
+                                <li>-Direct Full Aray</li>
+                                <li>-Quantum Dot tech</li>
+                                <li>-AM Mode</li>
+                                <li>-Remote Control</li>
+                            </ul>
+                            <div class="row pt-3 pt-md-5">
+                                <div class="col px-1 px-lg-2 pt-2 text-nowrap d-sm-block d-none">   <b>Screen Size</b>  </div>
+                                <div class="col px-1 px-lg-2"> <button type="button" class="btn btn-outline-secondary px-1 px-xl-2 px-xxl-3 py-2 inch-btn text-nowrap"><b>14-Inch</b></button></div>
+                                <div class="col px-1 px-lg-2"> <button type="button" class="btn btn-outline-secondary px-1 px-xl-2 px-xxl-3 py-2 inch-btn text-nowrap"><b>24-Inch</b></button></div>
+                                <div class="col px-1 px-lg-2"> <button type="button" class="btn btn-outline-secondary px-1 px-xl-2 px-xxl-3 py-2 inch-btn text-nowrap"><b>32-Inch</b></button></div>
+                                <div class="col px-1 px-lg-2"> <button type="button" class="btn btn-outline-secondary px-1 px-xl-2 px-xxl-3 py-2 inch-btn inch-btn1 text-nowrap"><b>60-Inch</b></button></div>
+                            </div>
+                            <div class="row pt-3 pt-xl-5 flex-xl-row flex-column">
+                                <div class="col-xxl-6 col-12 col-lg-4  position-relative ">
+                                    <i class="bi bi-dash count-dash "></i>
+                                    <input type="text" class="count-inp" value="0">
+                                    <i class="bi bi-plus count-plus"></i>
+                                </div>
+                                <div class="col pt-2 pt-xl-0" >
+                                    <button class="btn count-buy ">BUY</button>
+                                    <button class="btn btn-outline count-cart px-2 px-sm-4">ADD TO CART</button>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>     .
+        </div>
+
+
+
+
+       <!-- Main.p pages   -->
+
+
+
+       <div class="container-fluid py-3">
+        <div class="container">
+          <div class="py-3 py-md-5">
+            <div class="d-flex justify-content-between">
+              <div class="d-flex">
+                <i class="bi bi-emoji-wink-fill wink-icon"></i>
+              <h2 class="m-0"> Related Products</h2>
+              </div>
+              <div class="d-flex align-items-md-center">
+                <div class="swiper-button-prev pop-srch-btn "><i class="fas fa-angle-left"></i></div>
+                <div class="swiper-button-next pop-srch-btn "><i class="fas fa-angle-right"></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="swp-slider">
+            <div class="swiper mySwiper1 py-2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card top-main-card hotsale-bef" >
+                    <img src="../imgs/images.jfif" class=" top-card-imgs" alt="...">
+                    <div class="card-body">
+                      <p class=" top-price m-0 text-center">$860.99 </p> 
+                      <span class="top-nonprice text-center d-block">$999.00</span>
+                      <h5 class="card-title text-center text-nowrap fs-6">Digital Camera XF-21</h5>
+                      <div class="orng-line">
+                        <div class="orng-inline"></div>
+                      </div>
+                      <p class="text-center text-secondary">56 left stock</p>
+                      <button type="button" class="btn btn-outline-secondary w-100 hot-cart-btns">Add To cart</button>                      
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="swiper-slide">
+                  <div class="card top-main-card hotsale-bef" >
+                    <img src="../imgs/Dell-U-Series-Monitor-2019-Model.jpg" class=" top-card-imgs" alt="...">
+                    <div class="card-body">
+                      <p class=" top-price m-0 text-center">$740.99 </p> 
+                      <span class="top-nonprice text-center d-block">$1025.00</span>
+                      <h5 class="card-title text-center text-nowrap fs-6">Led Monitor High Quality</h5>
+                      <div class="orng-line">
+                        <div class="orng-inline w-25"></div>
+                      </div>
+                      <p class="text-center text-secondary">5 left stock</p>
+                      <button type="button" class="btn btn-outline-secondary w-100 hot-cart-btns">Add To cart</button>                      
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="swiper-slide">
+                  <div class="card top-main-card hotsale-bef " >
+                    <img src="../imgs/Best-High-Tech-Office-Essentials-0-Hero.jpg" class=" top-card-imgs" alt="...">
+                    <div class="card-body">
+                      <p class=" top-price m-0 text-center">$750.99 </p> 
+                      <span class="top-nonprice text-center d-block">$1500.00</span>
+                      <h5 class="card-title text-center text-nowrap fs-6">Set of equipements</h5>
+                      <div class="orng-line">
+                        <div class="orng-inline w-75"></div>
+                      </div>
+                      <p class="text-center text-secondary">14 left stock</p>
+                      <button type="button" class="btn btn-outline-secondary w-100 hot-cart-btns">Add To cart</button>                      
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="swiper-slide">
+                  <div class="card top-main-card hotsale-bef" >
+                    <img src="../imgs/download.jfif" class=" top-card-imgs" alt="...">
+                    <div class="card-body">
+                      <p class=" top-price m-0 text-center">$1999.99 </p> 
+                      <span class="top-nonprice text-center d-block">$2400.00</span>
+                      <h5 class="card-title text-center text-nowrap fs-6">Macbook Pro 2020 260USD</h5>
+                      <div class="orng-line">
+                        <div class="orng-inline w-100"></div>
+                      </div>
+                      <p class="text-center text-secondary">Out Of Stock</p>
+                      <button type="button" class="btn btn-outline-secondary w-100 hot-cart-btns">Add To cart</button>                      
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="swiper-slide">
+                  <div class="card top-main-card hotsale-bef" >
+                    <img src="../imgs/145728715-air-pods-pro-with-wireless-charging-case-new-airpods-pro-on-black-background-airpods-pro-copy-space-.jpg" class=" top-card-imgs" alt="...">
+                    <div class="card-body">
+                      <p class=" top-price m-0 text-center">$899.99 </p> 
+                      <span class="top-nonprice text-center d-block">$999.00</span>
+                      <h5 class="card-title text-center text-nowrap fs-6">Full Set AirPoD Devices</h5>
+                      <div class="orng-line">
+                        <div class="orng-inline"></div>
+                      </div>
+                      <p class="text-center text-secondary">56 left stock</p>
+                      <button type="button" class="btn btn-outline-secondary w-100 hot-cart-btns">Add To cart</button>                      
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="swiper-slide">
+                  <div class="card top-main-card hotsale-bef" >
+                    <img src="../imgs/camera-phone-laptop-a-photographer-s-desk.jpg" class=" top-card-imgs" alt="...">
+                    <div class="card-body">
+                      <p class=" top-price m-0 text-center">$899.99 </p> 
+                      <span class="top-nonprice text-center d-block">$999.00</span>
+                      <h5 class="card-title text-center text-nowrap fs-6">Full Set iPad Devices</h5>
+                      <div class="orng-line">
+                        <div class="orng-inline"></div>
+                      </div>
+                      <p class="text-center text-secondary">56 left stock</p>
+                      <button type="button" class="btn btn-outline-secondary w-100 hot-cart-btns">Add To cart</button>                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+  
+      
+      
+      <!-- Recently viewed -->
+  
+  
+      <div class="container-fluid py-5">
+        <div class="container-fluid  container-lg">
+          <div class="py-3">
+            <div class="d-flex justify-content-sm-between justify-content-center">
+              <h2 class="m-0 d-none d-sm-block"> Recently viewed</h2>
+              <div class="pt-1 d-flex align-items-md-center">
+                <div class="swiper-button-prev3 pop-srch-btn "><i class="fas fa-angle-left"></i></div>
+                <div class="swiper-button-next3 pop-srch-btn "><i class="fas fa-angle-right"></i></div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="swp-slider">
+            <div class="swiper mySwiper3 ps-2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="row  py-4  d-flex w-100">
+                    <div class="col-6 pe-0 ">
+                      <img class="viewed-img" src="../imgs/camera-phone-laptop-a-photographer-s-desk.jpg" alt="">
+                    </div>
+                    <div class="col-6 d-flex flex-column justify-content-between">
+                      <p class="mb-0">Fitness and activity Tracker</p>
+                      <div>
+                        <p class="bdeal-price pt-2">$334.00</p>
+                        <span class="d-flex">
+                          <i class="bi bi-star-fill bdeal-icon"></i>
+                          <i class="bi bi-star-fill bdeal-icon"></i>
+                          <i class="bi bi-star-fill bdeal-icon"></i>
+                          <i class="bi bi-star-fill bdeal-icon"></i>
+                          <a class="text-secondary text-decoration-none">(12)</a>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="swiper-slide">
+                  <div class="row  py-4  d-flex w-100">
+                    <div class="col-6 pe-0 ">
+                      <img class="viewed-img" src="../imgs/Computer_black_mouse_with_wheel_isolated_on_gray_background-vector_illustration.jpg" alt="">
+                    </div>
+                    <div class="col-6 d-flex flex-column justify-content-between">
+                      <p class="mb-0">Fitness and activity Tracker</p>
+                      <div>
+                        <p class="bdeal-price pt-2">$334.00</p>
+                        <span class="d-flex">
+                          <i class="bi bi-star-fill bdeal-icon"></i>
+                          <i class="bi bi-star-fill bdeal-icon"></i>
+                          <i class="bi bi-star-fill bdeal-icon"></i>
+                          <i class="bi bi-star-fill bdeal-icon"></i>
+                          <a class="text-secondary text-decoration-none">(12)</a>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="swiper-slide">
+                  <div class="row  py-4  d-flex w-100">
+                    <div class="col-6 pe-0 ">
+                      <img class="viewed-img" src="../imgs/red-hearts-flying-from-one-ear-of-black-headphones-to-another-as-love-sound-on-a-gray-background-3d-rendering-2C4CD7T.jpg" alt="">
+                    </div>
+                    <div class="col-6 d-flex flex-column justify-content-between">
+                      <p class="mb-0">Fitness and activity Tracker</p>
+                      <div>
+                        <p class="bdeal-price pt-2">$89.00</p>
+                        <span class="d-flex">
+                          <i class="bi bi-star-fill bdeal-icon"></i>
+                          <i class="bi bi-star-fill bdeal-icon"></i>
+                          <i class="bi bi-star-fill bdeal-icon"></i>
+                          <i class="bi bi-star-fill bdeal-icon"></i>
+                          <a class="text-secondary text-decoration-none">(12)</a>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="swiper-slide">
+                  <div class="row  py-4  d-flex w-100">
+                    <div class="col-6 pe-0 ">
+                      <img class="viewed-img" src="../imgs/pexels-photo-1165005.jpeg" alt="">
+                    </div>
+                    <div class="col-6 d-flex flex-column justify-content-between">
+                      <p class="mb-0">Fitness and activity Tracker</p>
+                      <div>
+                        <p class="bdeal-price pt-2">$855.00</p>
+                        <span class="d-flex">
+                          <i class="bi bi-star-fill bdeal-icon"></i>
+                          <i class="bi bi-star-fill bdeal-icon"></i>
+                          <i class="bi bi-star-fill bdeal-icon"></i>
+                          <i class="bi bi-star-fill bdeal-icon"></i>
+                          <a class="text-secondary text-decoration-none">(12)</a>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="swiper-slide">
+                  <div class="row  py-4  d-flex w-100">
+                    <div class="col-6 pe-0 ">
+                      <img class="viewed-img" src="../imgs/stainless-smart-watch-isolated-grey-background_174496-87.jpg" alt="">
+                    </div>
+                    <div class="col-6 d-flex flex-column justify-content-between">
+                      <p class="mb-0">Fitness and activity Tracker</p>
+                      <div>
+                        <p class="bdeal-price pt-2">$334.00</p>
+                        <span class="d-flex">
+                          <i class="bi bi-star-fill bdeal-icon"></i>
+                          <i class="bi bi-star-fill bdeal-icon"></i>
+                          <i class="bi bi-star-fill bdeal-icon"></i>
+                          <i class="bi bi-star-fill bdeal-icon"></i>
+                          <a class="text-secondary text-decoration-none">(12)</a>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+  
+              </div>
+            </div>
+  
+          </div>
+  
+  
+        </div>
+      </div>
+  
+  
+  
+  
+  
+  
+  
+  <!-- Sponsore Logos  -->
+  
+      
+  
+  
+  
+  
+      <div class="container-fluid py-md-5 pb-5">
+        <div class="container position-relative px-5">
+          <div class="swiper-button-prev7 logo-icon-btns logobtn-1  "><i class="fas fa-angle-left"></i></div>
+          <div class="swiper-button-next7 logo-icon-btns logobtn-2 "><i class="fas fa-angle-right"></i></div>
+  
+          <div class="pop-search-slider">
+            <div class="swiper mySwiper7">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="d-flex justify-content-center">
+                    <i class="bi bi-circle-half"></i>
+                    <p>Highlow</p>
+                  </div>
+                </div>
+  
+                <div class="swiper-slide">
+                  <div class="d-flex justify-content-center">
+                    <p>Boosst</p>
+                  </div>
+                </div>
+  
+                <div class="swiper-slide">
+                  <div class="d-flex justify-content-center">
+                    <i class="bi bi-cart3"></i>
+                    <p>BEBY.CO</p>
+                  </div>
+                </div>
+  
+                <div class="swiper-slide">
+                  <div class="d-flex justify-content-center">
+                    <i class="bi bi-lightning-fill"></i>
+                    <p>GlowUP</p>
+                  </div>
+                </div>
+  
+                <div class="swiper-slide">
+                  <div class="d-flex justify-content-center">
+                    <i class="bi bi-app-indicator"></i>
+                    <p>Queana.io</p>
+                  </div>
+                </div>
+  
+                <div class="swiper-slide">
+                  <div class="d-flex justify-content-center">
+                    <i class="bi bi-back"></i>
+                    <p>manthul</p>
+                  </div>
+                </div>
+  
+                <div class="swiper-slide">
+                  <div class="d-flex justify-content-center">
+                    <p>Emajine</p>
+                  </div>
+                </div>
+  
+  
+              </div>
+            </div>
+  
+          </div>
+  
+  
+        </div>
+      </div>
+  
+      <!-- NewsLetter container -->
+  
+  
+      <div class="container-fluid py-5 newsletter">
+        <div class="container-lg">
+          <div class="row">
+            <div class="col-md-6 d-flex align-items-center">
+              <div class="col-md-3">
+                <i class="bi bi-envelope-open-fill letter-icon"></i>
+              </div>
+              <div class="col-md-9 ps-3 ps-md-0">
+                <h2 class="text-light">Sign Up for Newsletter</h2>
+                <p class="text-white pt-2">Lorem ipsum dolor sit amet consillum numquam! Consequatur expedita corporis, ipsum accusamus itaque beatae quaerat nemo.</p>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+              <div class="input-group px-0 px-md-3">
+                <input type="text" class="form-control p-3 letter-inp" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <div class="letter-btn position-absolute">
+                  <button class="btn btn-secondary" type="button" id="button-addon2">Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  <!-- Footer -->
+  
+  <div class="container-fluid py-5">
+    <div class="container-xxl">
+      <div class="row justify-content-lg-around justify-content-md-between">
+        <div class="col-md-4 col">
+          <div class="">
+            <i class="bi bi-lightning-fill  light-icon"></i>
+            <h1 class="d-inline on-shop-text" >EL-Shop</h1>
+          </div>
+          <p class="py-3 text-secondary">Lorem ipsum doloibero nihil, sit expedita debitis n magnam cupiditate. Mollitia similique vel tempora quaerat?</p>
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn  soc-btns"><i class="bi bi-youtube"></i></button>
+            <button type="button" class="btn  soc-btns"><i class="bi bi-linkedin"></i></button>
+            <button type="button" class="btn  soc-btns"><i class="bi bi-twitter"></i></button>
+            <button type="button" class="btn  soc-btns"><i class="bi bi-facebook"></i></button>
+            <button type="button" class="btn  soc-btns"><i class="bi bi-instagram"></i></button>
+          </div>
+        </div>
+        <div class="col-md-4 d-xl-flex justify-content-around foot-lists d-none ">
+          <table>
+            <tr>
+              <th>QUICK LINKS</th>
+            </tr>
+            <tr>
+              <td><a href="">About us</a></td>
+            </tr>
+            <tr>
+              <td><a href="">Contact us</a></td>
+            </tr>
+            <tr>
+              <td><a href="">Products</a></td>
+            </tr>
+            <tr>
+              <td><a href="">Log in</a></td>
+            </tr>
+            <tr>
+              <td><a href="">Sign Up </a></td>
+            </tr>
+          </table>
+          
+          <table>
+            <tr>
+              <th>CUSTOMER AREA</th>
+            </tr>
+            <tr>
+              <td><a href="">My Account</a></td>
+            </tr>
+            <tr>
+              <td><a href="">Orders</a></td>
+            </tr>
+            <tr>
+              <td><a href="">Tracking Lists</a></td>
+            </tr>
+            <tr>
+              <td><a href="">Terms</a></td>
+            </tr>
+            <tr>
+              <td><a href="">Privacy Policy </a></td>
+            </tr>
+            <tr>
+              <td><a href="">My Cart</a></td>
+            </tr>
+          </table>
+          
+  
+        </div>
+        <div class="col-xl-4 col-md-6 pt-md-0 pt-2">
+          <h5> Contact</h5>
+          <p>Lorem ipsum dolor sit ametmodi. Expedita, unde alias non nobis est veniam in, nulla quaerat!</p>
+          <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between">
+              <div class="pe-3"><i class="bi bi-headset fs-1 text-secondary"></i></div>
+              <div>
+                <p class="mb-0 pt-2 ">Have any Question?</p>
+                <p class="contact-nump">+123 456 789</p>
+              </div>
+            </div>
+            <div class="pt-3">
+              <button type="button" class="btn btn-outline-info">LIVE CHAT</button>
+            </div>
+          </div>
+      
+          <div class="row justify-content-between pt-3">
+            <div class="col me-sm-2 me-1  ">
+              <div class="row appl-btn">
+                <div class="col-3 col-lg-4 justify-content-center align-items-center d-flex"><i class="fab fa-apple fs-1"></i></div>
+                <div class="col-9 col-lg-8">
+                  <p class="mb-0 appl-p blockquote">Download on</p>
+                  <p class="mb-0">App Store</p>
+                </div>
+  
+              </div>
+            </div>
+            <div class="col ms-sm-2  ">
+              <div class="row appl-btn">
+                <div class="col-3 col-lg-4 justify-content-center align-items-center d-flex"><i class="fab fa-google-play fs-3"></i></div>
+                <div class="col-9 col-lg-8" >
+                  <p class="mb-0 appl-p">Geti it on</p>
+                  <p class="mb-0">Google Play</p>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </div>  
+  
+  <!--  Last  -->
+  <div class="container-fluid mt-2 mt-md-5 lfooter-fcont">
+    <div class="container ">
+      <div class="row justify-content-between">
+        <div class="col-lg-8 col-sm-6 d-flex align-items-center">
+          <p class="mb-0 text-secondary foot-p">EL-Shop - ©2021 All Right Reserved </p>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="row d-flex">
+            <div class="col foot-mimg"><img class="foot-minn" src="../imgs/Mastercard-Logo.wine.png" alt=""></div>
+            <div class="col foot-mimg"><img class="foot-minn" src="../imgs/unnamed.png" alt=""></div>
+            <div class="col foot-mimg"><img class="foot-minn" src="../imgs/PayPal-Logo.png" alt=""></div>
+            <div class="col foot-mimg"><img class="foot-minn" src="../imgs/Bitcoin-Logo.png" alt=""></div>
+          </div>
+        </div>
+  
+      </div>
+  
+    </div>
+  
+  </div>
+
+
+
+    
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+
+
+    <script src="../script.js"></script>
+</body>
+</html>

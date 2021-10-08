@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  .main-div {
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+  }
+  .left-side {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0px;
+  }
+  .left-side ul li {
+    display:inline-block;
+    font-weight: 600;
+    padding: 10px;
+  }
+  .left-side ul li a {
+      color: black;
+      font-size: 18px;
+  }
+  .right-side {
+      display: flex;
+      align-items: center;
+      margin-right: 5px;
+  }
+  .sign-div {
+      width: 70px;
+      max-width: 100%;
+      height: 40px;
+      background-color: blue;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 5px;
+  }
+  .right-side a {
+      color: white;
+      font-weight: 600;
+  }
+  .sign2  {
+      background-color: white;
+      border:1px solid gray;
+  }
+  .sign2 a {
+      color: black;
+  }
+  .bck-img {
+      width: 100%;
+      background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Beautiful-Stars-Landscape-Background-Image-.jpeg);
+      background-position:center;
+      background-size: cover;
+  }
+  @media (max-width: 600px){
+      .right-side {
+          display: block;
+      }
+      .left-side {
+          display: block;
+      }
+      .main-div {
+          width: 100%;
+          display: block;
+      }
+  }
+.header {
+    width: 80%;
+    margin: auto;
+}
+.header h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
+    padding-top: 30px;
+}
+.header h2 {
+    color: white;
+}
+.register {
+    width: 200px;
+    max-width: 100%;
+    background-color: rgb(23, 64, 201);
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.register a {
+    color: white;
+    font-weight: 600;
+}
+h4 {
+    color: white;
+}
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+.innflex {
+    width:25%;
+    border: 1px solid gray ;
+    padding:30px;
+    background-color: rgba(255, 255, 255, 0.781);
+    color: gray;
+    transition: all 0.5s;
+}
+.flexbox :first-child {
+    border-radius: 10px 0px 0px 10px;
+}
+.flexbox :last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+.innflex:hover {
+    box-shadow: inset 0px 3px 0px 0px blue;
+    border: 2px solid blue;
+}
+@media (max-width: 800px){
+    .header {
+        width: 100%;
+        font-size: inherit;
+    }
+    .header h1 {
+        font-size: 24px;
+    }
+    .bck-img {
+        background-color: rgba(141, 165, 218, 0.527);
+        background-image: none  ;
+    }
+    .innflex {
+        width: 100%;
+        background-color: white;
+    }
+}
+.flexbox2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+.flexbox2 img {
+    height: 30px;
+}
+.header p {
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+
+}
+.header h5 {
+    font-size: 25px;
+    text-align: center;
+}
+.flexbox3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.flexcards {
+    width: 50%;
+    padding: 50px;
+}
+.flexcards img {
+    width: 450px;
+    max-width: 100%;
+    height: 450px;
+
+}
+@media (max-width:800px){
+    .header {
+        width: 100%;
+    }
+    .flexcards {
+        width: 100%;
+    } 
+    .flexbox3 {
+        margin-top: 0;
+    }
+    .circleimg {
+        display: none;
+    }
+    .team-cont h3 {
+        font-size: 16px;
+    }
+    .innflex6 h1 {
+        font-size: 20px;
+    }
+    .innflex6 h2 {
+        font-size: 15px;
+    }
+}
+.flexcards .cardp {
+    font-size: 25px;
+    text-align: left;
+    opacity: 0.7;
+}
+.bi-signpost-split-fill {
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+    background-color: blue;
+}
+.register2 {
+    max-width: 100%;
+    background-color: rgb(23, 64, 201);
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.register2 a {
+    color: white;
+    font-weight: 600;
+}
+.flexbox4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    border-bottom:2px solid gray;
+}
+.flexbox4 a {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.container h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+.imgflex {
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap ;
+}
+.innimg {
+    background-image: url(http://www.securesofts.com/images/about-img.jpg);
+    width: 33%;
+    height: 400px;
+    background-size:cover;
+    border-radius: 10px;
+    margin-right: 5px;
+
+
+}
+.innimg2 {
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/09/09/22/meeting-1245776__480.jpg);
+    width: 66%;
+    height: 400px;
+    background-size:cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.innimg3 {
+    background-image: url(https://www.imgacademy.com/sites/default/files/institute-hero1.jpg);
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+@media (max-width:700px){
+    .flexbox4 {
+        display: block;
+    }
+    .container {
+        width: 100%;
+    }
+    .innimg , .innimg2, .innimg3 {
+        width: 100%;
+        height: 300px;
+        margin-top: 30px;
+        border-radius: 0;
+    }
+
+}
+.structure {
+    width: 100%;
+    background-image: linear-gradient(#eb01a51a, #1d1c1ccc), url(https://wallpapercave.com/wp/miEbKMk.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    padding: 10px 0px;
+}
+.container h3 {
+    text-align: center;
+}
+.flexbox5 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.innflex5 {
+    width: 33%;
+    border-radius: 7px;
+    text-align: center;
+    padding: 10px;
+}
+.innflex5 div {
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+.flexbutton {
+    width: 80%;
+    background-color: rgb(56 71 56 / 68%);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.flexbutton:hover {
+    background-color: rgb(23, 64, 201);
+    color: black;
+}
+.flexbox6{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+.innflex6 {
+    width: 50%;
+    display: flex; 
+    color: whitesmoke;
+    padding-top: 10px;
+}
+.innflex6 h1 {
+    margin-top:0;
+    text-align: inherit;
+}
+.innflex6 .arrowr {
+    font-size: 40px;
+    padding: 10px;
+} 
+@media (max-width:700px){
+    .innflex5 , .innflex6 {
+        width: 100%;
+    }
+    .innflex {
+        border-radius: 0 !important;
+    }
+    .flexbutton {
+        margin-top: 0;
+    }
+    .on-pay {
+        font-size: 25px !important;
+    }
+    .cardp {
+        font-size: 15px !important;
+    }
+}
+footer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.foottbl {
+    width: 80%;
+}
+.footicons {
+    width: 20%;
+}
+footer table {
+    width: 100%;
+}
+footer th , td a {
+    text-align: inherit;
+    color: black;
+}
+.theend{
+    width: 100%;
+    border-top: 1px solid gray;
+    text-align: center;
+    padding: 20px 0px;
+}
+.theend h4 {
+    color: black;
+    opacity: 0.7;
+}
+@media (max-width:700px){
+    footer {
+        width: 100%;
+    }
+    .foottbl {
+        width: 100%;
+    }
+}
+

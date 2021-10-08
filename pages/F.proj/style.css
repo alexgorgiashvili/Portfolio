@@ -1,0 +1,941 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.orangeclr {
+    color:rgb(254, 114, 35) !important;
+}
+.borangeclr {
+    background-color:rgb(254, 114, 35) !important ;
+}
+.upcontainer {
+    background-color: rgb(254, 114, 35) !important;
+}
+.lang-div {
+    min-width: 4rem !important;
+    top: 110% !important;
+    right: 5px !important;
+}
+.lang-item {
+    cursor: pointer;
+    padding: 5px 5px;
+}
+.head-drop {
+    top: 110%!important;
+
+}
+.dollar-drop {
+    min-width: 18px !important;
+}
+.li-bef::before {
+    content: "";
+    width: 2px;
+    height: 38px;
+    background-color: white;
+    position: absolute;
+    left: -7px;
+    opacity: 0.5;
+}
+@media  (max-width: 1200px) {
+    .li-bef::before {
+        display: none;
+    }
+}
+.light-icon {
+    font-size: 33px;
+    color: rgb(254, 114, 35)  ;
+}
+.on-shop-text {
+    font-weight: 700;
+    font-size: 2.5rem;
+    list-style: none;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.726) ;
+}
+.on-shop-text:hover {
+    color: black;
+}
+.srch-cont {
+    width: 100%;
+    padding: 10px;
+    background-color: 	rgb(241, 241, 243);
+    border: 0;
+    border-radius: 7px;
+}
+.srch-inp {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: 	rgb(241, 241, 243);
+
+}
+.srch-icon {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    bottom: 8px;
+}
+.flag-imgs {
+    width: 20px;
+    max-width: 100%;
+    height: 20px;
+}
+.sign-btn {
+    background-color: rgb(254, 114, 35) !important ;
+    padding: 10px 8px !important;
+    color: white !important;
+}
+.main-search {
+    font-size: 20px;
+    cursor: pointer;
+}
+.overflow-srch {
+    width: 100%;
+    position: absolute;
+    right: 0;
+}
+.hide-srch {
+    position: absolute;
+    left: 100%;
+}
+.add-hide-class {
+    left: 100%;
+}
+
+
+.bskt-icon {
+    font-size: 20px;
+}
+.bskt-item {
+    width: 18px;
+    height: 18px;
+    background-color: rgb(254, 114, 35);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 7px;
+    color: white;
+    border: 2px solid white;
+}
+.main-bskt {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.bskt-num {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.person-bef::after {
+content: "My Account";
+padding: 0px 8px;
+font-family: sans-serif;
+}
+.curs-cont {
+    cursor: default;
+}
+.categories-nav a {
+    padding: 25px 38px 25px 0px !important;
+}
+.hot-prod {
+    box-shadow: inset 0px 20px 6px 0px #eaeaea;
+
+}
+
+.swipe-img1 {
+    background-image:linear-gradient(to bottom, #808080f5, #ffffff94),  
+    url(https://www.macobserver.com/wp-content/uploads/2020/06/White-airpods-white-background.jpg);
+}
+.swipe-img2 {
+    background-image: linear-gradient(to bottom, #808080f5, #ffffff94), 
+    url(https://blog.media.io/images/phone/iphone/apple-earpods-airpods-wireless.jpg);
+}
+.swipe-img3 {
+    background-image:linear-gradient(to bottom, #808080f5, #ffffff94),  
+    url(https://images.pexels.com/photos/238118/pexels-photo-238118.jpeg?cs=srgb&dl=pexels-j%C3%A9shoots-238118.jpg&fm=jpg);
+    
+}
+.swipe-img4 {
+    background-image:linear-gradient(to bottom, #808080f5, #ffffff94),  
+    url(https://www.xda-developers.com/files/2021/08/Xiaomi-Mi-MIX-4-front-and-back-on-gray-background.jpg);
+    
+}
+.swipe-img5 {
+    background-image:linear-gradient(to bottom, #808080f5, #ffffff94),  
+    url(https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-simple-desk-computer-background-image_259562.jpg);
+    
+}
+.swipe-img6 {
+    background-image:linear-gradient(to bottom, #808080f5, #ffffff94), 
+     url(https://www.insidehook.com/wp-content/uploads/2021/03/airpods.jpg?fit=1200%2C800);
+   
+}
+.swipe-images {
+    width: 100%;
+    height: 380px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    box-shadow: 3px 2px 6px 1px #46464657;
+
+}
+
+@media (min-width:991px) {
+    .main-swiper .swiper-slide {
+        transition:all .3s;
+    } 
+    .main-swiper .swiper-slide-next {
+        margin: 0px 130px;
+        right: 127px !important;
+        transform: scale(1.8 , 1.2);
+    }
+    .main-swiper .swiper-slide-active {
+        right: 255px !important;
+    }
+    .swipe-images h1 {
+        font-size: 23px;
+        font-weight: 700;
+        color: rgba(0, 0, 0, 0.514);
+        padding: 20px 0px;
+        font-family: none;
+    }
+}
+
+
+.sw-pagination1 {
+    position:relative !important;
+    bottom: 0 !important;
+    padding: 15px;
+}
+.swiper-pagination-bullet-active {
+    background-color:rgb(254, 114, 35) ;
+    width: 17px;
+    height: 8px;
+    border-radius: 5px;
+    transition: all .6s;
+}
+.techinfo-price {
+    color: rgb(254, 114, 35);
+    font-size: 25px;
+    font-weight: 600;
+}
+.bdeals-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 22px;
+    box-shadow: -5px 4px 6px 1px #46464694;
+}
+.bdeal-icon {
+    font-size: 15px;
+    color:rgb(254, 114, 35) ;
+    padding-right: 3px;
+}
+.bdeal-price {
+    color: rgb(254, 114, 35);
+    font-weight: 700;
+    margin: 0;
+    padding-top: 30px;
+    
+}
+.mySwiper2 .swiper-slide {
+    padding: 0px 33px 0px 0px!important;    
+}
+.top-prod-btn {
+    position: relative;
+    left: 0;
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    opacity: 0.6;
+    transition: all .5s;
+    user-select: none;
+}
+.top-prod-btn:hover {
+    opacity: 1;
+    transform: scale(1.2);
+
+
+}
+.top-prod-btn::after{
+    content: "";
+}
+.week-cont {
+    background-color: #f6f6f6;
+}
+.top-card-imgs {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.top-main-card {
+    border-radius: 20px !important;
+    box-shadow: -2px 2px 4px 0px #dfdfdf;
+    border: none !important;
+}
+.hotsale-bef::before {
+    content: "SALE";
+    width: 50px;
+    max-width: 100%;
+    height: 50px;
+    background-color: rgb(254, 114, 35);
+    border-radius: 50%;
+    z-index: 999;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: wheat;
+    font-weight: 600;
+    padding: 11px 0px 0px 6px;
+    font-size: 16px;    
+  
+
+}
+.hot-cart-btns {
+    border: 2px solid rgb(254 114 35 / 42%);
+    color: rgb(254, 114, 35);
+    border-radius: 9px;
+    padding: 10px 0px;
+    
+
+}
+.hot-cart-btns:hover {
+    background-color: rgb(254 114 35 / 42%) ;
+    border: 2px solid rgb(254, 114, 35);
+}
+
+.top-price {
+    color: rgb(254, 114, 35) ;
+    font-weight: 600;
+}
+.top-nonprice {
+    text-decoration: line-through;
+    font-size: 12px;
+    padding: 5px;
+    color: gray;
+    opacity: .7;
+}
+.bdeal-icon1 {
+    font-size: 15px;
+    color:rgb(254, 114, 35) ;
+    padding: 1px; 
+}
+.pop-srch-btn {
+    position: relative;
+    left: 0;
+    font-size: 20px;
+    color: black;
+    opacity: 0.6;
+    transition: all .5s;
+    user-select: none;
+    padding: 0px 25px;
+    transition: .5s;
+}
+.pop-srch-btn::after {
+    content: none;
+}
+.pop-srch-btn:hover {
+    color: rgb(254, 114, 35);
+}
+.inn-mini-cards {
+    border: 1px solid #dddddd;
+    border-radius: 20px;
+}
+.mini-c-icons {
+    position: relative;
+    bottom: 28px;
+    font-size: 35px;
+    color: rgb(254, 114, 35);
+}
+.flash-cont {
+    background-color: rgb(254, 114, 35) ;
+    background-image: url(https://www.proimprint.com/blog/wp-content/uploads/2020/06/116.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 104px 150px rgb(254 114 35) ;
+    
+}
+.flash-row {
+    border-radius: 20px;
+    padding: 17px 14px;
+    box-shadow: 0 0 5px 1px #ece2c0;
+}
+.orng-line {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(254 114 35 / 34%);
+    border-radius: 12px;
+}
+.orng-inline {
+    width: 80%;
+    height: 10px;
+    background-color: rgb(254, 114, 35);
+    border-radius: 12px;
+}
+.swiper-pagination2 span {
+    background-color: white !important;
+}
+.swiper-pagination2 {
+    width: 100px !important;
+    max-width: 100%;
+}
+.flash-butt a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.flash-img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 22px;
+}
+.viewed-img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 22px; 
+    box-shadow: -5px 4px 6px 1px #46464694;
+}
+.wink-icon {
+    font-size: 27px;
+    padding-right: 10px;
+    color: rgb(254, 114, 35);
+}
+.logo-icon-btns {
+    position: absolute;
+    display: inline-block;
+    font-size: 20px;
+    color: #80808063;
+    transition: all .5s;
+    user-select: none;
+    transition: .5s;
+}
+.logo-icon-btns:hover {
+    color:black ;
+}
+.logobtn-1{
+    left: 0;
+    top: 3px;
+    font-size: 24px;
+}
+.logobtn-2 {
+    right: 20px;
+    top: 3px;
+    font-size: 24px;
+}
+.pop-search-slider .d-flex {
+    font-size: 25px;
+    font-weight: 800;
+    color: #80808063;
+}
+.data-new {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.newsletter {
+    background-color: rgb(254, 114, 35);
+}
+.letter-icon {
+    font-size: 80px !important;
+    color: #f5deb373;
+}
+.letter-btn {
+    right: 25px;
+    top: 10px;
+    z-index: 999;
+}
+.letter-inp {
+    border-radius: 7px !important;
+}
+.soc-btns {
+    background-color: #80808014;
+    margin-right: 10px;
+    border-radius: 8px !important;
+    color: #8080808c;
+}
+.foot-lists a {
+    text-decoration: none;
+    color: gray;
+}
+.contact-nump {
+    color:rgb(254, 114, 35) ;
+    font-weight: 700;
+}
+.appl-btn {
+    background-color: black;
+    border-radius: 11px;
+    color: white;
+    padding: 10px 0px; 
+    cursor: pointer;
+}
+.appl-p {
+    font-size: 13px;
+}
+.lfooter-fcont {
+    border-top: 2px solid gray;
+    padding: 10px 0px;
+}
+.foot-p {
+    font-size: 13px;
+}
+
+
+
+/*  Responsive main */
+
+
+@media  (max-width: 400px)  {
+    .swipe-images {
+        height: 300px;
+    }
+    .swipe-images h1 {
+        font-size: 18px;
+    }
+}
+
+@media  (max-width: 778px)  {
+    .letter-btn {
+        right: 15px;
+        top: 10px;
+        z-index: 999;
+    }
+}
+
+
+
+@media  (max-width: 991px) {
+    .dropdown-menu {
+        background-color: rgb(254, 114, 35) ;
+        border: none;
+    }
+    .dropdown-item {
+        padding: 0;
+    }
+    .categories-nav a {
+        padding: 10px 0px !important;
+    }
+    .mySwiper2 .swiper-slide {
+        padding: 5px 5px 5px 3px!important;
+    }
+  
+
+}
+
+
+@media  (max-width: 1400px) {
+
+    .categories-nav a {
+        padding: 10px 5px !important;
+    }
+
+}
+.foot-minn {
+    width: 80px;
+    height: 50px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+
+
+/* Categories Sec !!! */
+
+
+
+
+
+.shadow-img img {
+    width: 100%;
+    object-fit: cover;
+    height: 275px;
+    border-radius: 0px 25px 25px 0px;
+
+}
+.shadow-row {
+    border: 2px solid #80808005;
+    border-radius: 25px 0px 0px 25px;
+}
+.shadow-mcol {
+    box-shadow: 29px 0px 37px 32px white; 
+    z-index: 1;
+
+}
+.cat-list { 
+    padding: 20px 13px 0px 20px;
+    border-radius: 20px;
+    
+}
+.cat-mcol {
+    z-index: 2;
+    border:2px solid #80808033;
+    border-radius: 25px;
+    height: 470px;
+    transition: all .5s;
+}
+.cat-ul::-webkit-scrollbar {
+    width: 3px;
+}
+ 
+.cat-ul::-webkit-scrollbar-track {
+    box-shadow: inset 0px 0px 6px rgb(0 0 0 / 7%);
+}
+ 
+.cat-ul::-webkit-scrollbar-thumb {
+  background-color: #f17632;
+    }
+.cat-ul {
+    overflow: overlay;
+    height: 390px;
+}
+.hot-span {
+    color: rgb(196 107 57) !important;
+}
+.btn-check:focus+.btn, .btn:focus {
+    box-shadow: none;
+    color: orange;
+}
+.tech-info button {
+    color: #fff;
+    background-color: #8e7777e8;
+    border-color: #1a1e21;
+    border: none;
+    transition: all .3s;
+    margin-top: 40px;
+    
+}
+.tech-info button:hover {
+    color: #fff;
+    background-color: #765c5c;
+    border-color: #1a1e21; 
+    transform: scale(1.03);
+}
+.tech-info button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    color: white !important;
+    border: none;
+    background-color: #765c5c;
+}
+
+.navbar-shadow {
+    box-shadow: 0px 20px 14px -7px #80808054;
+}
+.form-check-input {
+    border-radius: 50% !important;
+    border: 2px solid gray !important;
+    /* background-color: gray !important; */
+    
+}
+.form-check-input:checked {
+
+    background-color: rgb(254, 114, 35) !important ;
+    border: none !important;
+}
+.listgrid-icon {
+    border: none !important;
+    transition: all .3s ;
+
+}
+.listgrid-icon:hover {
+    transform: scale(1.2);
+    color: gray;
+}
+.hrt-btn {
+    border: 2px solid #80808029 !important;
+    transition: all .3s;
+}
+.hrt-btn:hover {
+    border: 2ox solid rgb(254, 114, 35) !important;
+    background-color: rgb(254, 114, 35);
+    color: white !important;
+}
+.bskt-btn-ctg:hover {
+    background-color: rgb(216, 127, 76) !important;
+}
+.cat-card-img {
+    border-radius: 20px 0px 0px 20px !important;
+    object-fit: cover;
+}
+.cat-card-bdy {
+    border-radius: 20px;
+    border: 1px solid #80808017;
+    box-shadow: -3px 3px 5px 0px #80808014;
+    border-radius: 20px;
+}
+.irs-grid {
+    display: none !important;
+}
+.irs--flat .irs-bar {
+    top: 25px;
+    height: 6px;
+    background-color: rgb(254, 114, 35) !important;
+}
+.irs--flat .irs-handle>i:first-child {
+    top: -1px;
+    width: 15px;
+    height: 15px;
+    margin-left: -6px;
+    background-color: rgb(254, 114, 35) ;
+    border-radius: 50%;
+}
+.irs--flat .irs-line {
+    top: 25px;
+    height: 6px;
+    background-color: #e1e4e9;
+    border-radius: 4px;
+}
+.irs-to {
+    background-color:rgb(254, 114, 35) !important ;
+}
+.irs-from {
+    background-color:rgb(254, 114, 35) !important ;
+}
+.form-check-input:focus {
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+.clrs-innbtn {
+    border: 2px solid rgb(254 114 35 / 16%);
+    color: rgb(254, 114, 35);
+}
+.clrs-innbtn:hover {
+    color: white;
+    background-color: rgb(254, 114, 35);
+    box-shadow: 0px 0px 1px 1px #9fb43f85;
+    border: 2px solid rgb(254, 114, 35);
+}
+.sh-more-p {
+    color: rgb(254, 114, 35);
+    font-weight: 600;
+    padding: 15px 0px;
+    display:inline-block;
+    text-decoration: none;
+    transition: all .2s;
+}
+.sh-more-p:hover {
+    color: rgb(145 60 10 / 99%);
+    transform: scale(1.05);
+}
+.filter-inps {
+    position: relative !important;
+    transform: translate(0) !important;
+}
+.filter-chng {
+    text-align: inherit;
+    padding: 12px 25px;
+    background-color: inherit;
+    color: gray;
+    border: 2px solid #8080803b;
+}
+.filter-chng::after {
+    position: absolute;
+    right: 11%;
+    top: 50%;
+}
+.filter-chng:hover {
+    box-shadow: 0px 0px 2px gray !important;
+}
+.filter-btn {
+    border-radius: 9px;
+    background-color: rgb(254, 114, 35);
+    padding: 13px;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    box-shadow: 1px 0px 6px 1px #808080b0;
+    transition: all .2s;
+}
+.filter-btn:hover {
+    font-size: 19px;
+    background-color: rgb(213 105 45);
+    transform: scale(1.01);
+}
+.filter-hide {
+    border-radius: 5px;
+    display: flex;
+    width: 55px;
+    height: 45px;
+    border: 2px solid #8080802e;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #808080f2;
+
+}
+.filter-toggle {
+    left: 0 !important;
+    background-color: white;
+    height: auto;
+}
+
+/*  categories page media */
+
+
+@media  (max-width: 768px) {
+    .shadow-mcol {
+        background-image: url("./imgs/macbook_pro_late2016_review-adam_pair_hero2-100693227-orig-4.jpg") !important;
+        background-position: center;
+        background-size: cover;
+        color: white !important;
+        border-radius: 20px;
+        
+    }
+
+}
+
+@media  (max-width: 991px) {
+
+    .cart-row {
+        padding: 0px 10px;
+    }
+    .bskt-btn-ctg {
+        width: 100%;
+    }
+    .hrt-btn {
+        width: 100%;
+       }
+    .cat-card-img {
+        border-radius: 20px 20px 0px 0px !important;
+    }
+    .cat-mcol {
+        position: absolute;
+        left: -100%;
+    }
+
+}
+
+@media  (max-width: 1200px)  {
+    .cat-list {
+        padding: 15px 0px 0px 0px !important;
+    }
+    .clrs-innbtn {
+        border: 2px solid rgb(254 114 35 / 16%);
+        color: rgb(254, 114, 35);
+        padding: 5px 8px !important;
+        width: 65px;
+        max-width: 100%;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+        /* Item Page */
+    
+.item-lg-img {
+     width: 100%;
+     object-fit: cover;
+}
+.item-sm-img {
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+   
+
+
+}
+.swiper-slide-thumb-active {
+padding: 5px;
+border: 2px solid rgb(254, 114, 35);
+
+}
+
+.hrt-icon:hover {
+    color: rgb(254, 114, 35) !important;
+    cursor: pointer;
+}
+.cat-price {
+    border-bottom: 2px solid #8080804d;
+    padding: 20px 0px;
+}
+.dash-ul  {
+    list-style: none;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 18px;
+    font-weight: 600;
+}
+.inch-btn {
+    border:2px solid #80808038;
+    /* padding: 10px 20px !important; */
+    border-radius: 10px;
+}
+.inch-btn:hover , .count-buy:hover {
+    background-color: #ffa50040;
+    color:rgb(254, 114, 35) ;
+    border: 2px solid #ffa50040;
+}
+.count-inp {
+    outline: none;
+    width: 140px;
+    max-width: 100%;
+    text-align: center;
+    padding: 8px 0px;
+    border: 2px solid #8080804a;
+    border-radius: 8px;
+    color: rgb(254, 114, 35);
+}
+.count-dash {
+    position: absolute;
+    top: 53%;
+    left: 44px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #8080804a;
+    transform: translate(-50%, -50%);
+}
+.count-plus {
+    position: absolute;
+    bottom: 3px;
+    left: 106px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #8080804a;
+    user-select: none;
+}
+.count-buy {
+    border: 2px solid #ebad3b;
+    color: rgb(254, 114, 35);
+    padding: 8px 26px;
+    border-radius: 9px;
+    font-weight:700;
+    margin-right: 8px;
+}
+.count-cart {
+    padding: 8px 45px;
+    border-radius: 9px;
+    background-color: rgb(254, 114, 35);
+    color: white;
+     font-weight:700 ; 
+     border: 2px solid rgb(254, 114, 35); 
+}
+@media (max-width:990px) {
+    .head-drop {
+        background-color: white;
+
+    }
+}
+@media (max-width:330px) {
+
+    
+}
+
+
+
+

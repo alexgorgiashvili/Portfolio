@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(
+178deg, #665d5dc2, #a35ee28c);
+}
+*{
+    box-sizing: border-box;
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1000px;
+    }
+}
+.prof-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.prof-image img {
+    height: 150px;
+    object-fit: cover;
+
+}
+.nav-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #00000094;
+    text-decoration: none;
+}
+.nav-text:hover {
+    color: #000000b5;
+}
+.hov-line {
+    width: 0%;
+    height: 3px;
+    background-color: #9540f1;
+    display: block;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+.myprojects {
+    border-radius: 8px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    transition: cubic-bezier(0, 0, 0.46, 0.88) .8s;
+    position: relative;
+}
+.myprojects:hover{
+    background-image: none;
+    background-color: #9540f1;
+}
+.pimg {
+    background-image: url(imgss/image1.png); 
+}
+.pimg1 {
+    background-image: url(imgss/consult.png);
+    
+}
+.pimg2 {
+    background-image: url(imgss/payze.png);
+    
+}
+.pimg3 {
+    background-image: url(imgss/travel.png);
+    
+}
+.pimg4 {
+    background-image: url(imgss/designer.png);
+    
+}
+.pimg5 {
+    background-image: url(imgss/bake.png);
+    
+}
+.pimg6 {
+    background-image: url(imgss/hello.png);
+}
+
+
+.view-proj {
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    color: white !important;
+    border: 2px solid white;
+    border-radius: 17px;
+    padding: 5px 40px;
+    outline: none;
+    box-shadow: none;
+    display: none;
+    transition: all .2s;
+}
+.view-proj:hover {
+    background-color: #6230b3;
+
+}

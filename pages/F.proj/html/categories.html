@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EL-SHOP</title>
+    <link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+   
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<!-- Head 1 -->
+<div class="container-fluid upcontainer">
+  <div class="container-sm ">
+      <nav class="navbar navbar-expand-lg navbar-light  justify-content-between">
+          <div class=" justify-content-start d-none d-lg-flex">
+              <div class="">
+                  <i class="bi bi-telephone-fill text-white"></i>
+                  <p class="d-inline text-light">+ 221 77 45 55</p>
+              </div>
+              <div class="ps-md-5">
+                  <i class="bi bi-envelope-fill text-light" ></i>
+                  <p class="d-inline text-light ps-1">support@elshop.io</p>
+              </div>
+          </div>
+          <div class="">
+            <div class=" navbar-collapse justify-content-end  " id="navbarNavDropdown" >
+              <ul class="navbar-nav flex-row">
+                <li class="nav-item pt-2 pe-3  ">
+                  <i class="bi bi-geo-alt-fill text-light"></i>
+                  <a href="#" class="d-inline text-light ps-1 nav-link">Store Locations</a>
+                </li>
+                <li class="nav-item pt-2 pe-3 ">
+                  <i class="bi bi-truck text-light"></i>
+                  <a href="#" class="d-sm-inline d-none text-light ps-1 nav-link">Track your Order</a>
+                </li>
+                <li class="nav-item dropdown pe-3 li-bef ">
+                  <a class="  nav-link dropdown-toggle text-light gel-value" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   $ Dollar (US)
+                  </a>
+                  <ul class="dropdown-menu head-drop position-absolute " aria-labelledby="navbarDropdownMenuLink">
+                      <li class="d-md-block d-inline">
+                        <a class="dropdown-item gel-item" href="#">$ Dollar (US)</a>
+                      </li>
+                      <li>
+                        <div class="dropdown-item">
+                              <a class=" dropdown-item gel-item  d-inline px-0" href="#">₾ Lari (GE)</a>
+                          </div>
+                      </li>
+                      
+                  </ul>
+                </li>
+                <li class="nav-item dropdown p-sm-0 pe-3">
+                  <a class="nav-link dropdown-toggle text-light lang-main" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    EN
+                  </a>
+                  <ul class="dropdown-menu lang-div  head-drop position-absolute" aria-labelledby="navbarDropdownMenuLink">
+                    <li  class="dropdown-item lang-item" data-text="EN">
+                        <img class="flag-imgs" src="../imgs/2634450_ensign_flag_kingdom_nation_icon.png" alt="">
+                        <a  class="dropdown-item d-inline px-0 "  href="#">EN</a>
+                    </li>
+                    <li  class="dropdown-item lang-item" data-text="RU">
+                        <img class="flag-imgs" src="../imgs/2634398_ensign_flag_nation_russia_icon.png" alt="">
+                        <a  class="dropdown-item d-inline px-0 "  href="#">RU</a>
+                    </li>
+                    <li  class="dropdown-item lang-item" data-text="GE">
+                        <img class="flag-imgs" src="../imgs/2634523_ensign_flag_georgia_nation_icon.png" alt="">
+                        <a  class="dropdown-item d-inline px-0 "  href="#">GE</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </div>
+</div>
+
+<!-- Search bar -->
+
+
+<div class="container-fluid pt-4 bg-white ">
+  <div class="container">
+      <div class="row">
+          <div class="col-xl-4 col-xxl-3 d-none d-xl-block">
+              <div class="">
+                  <i class="bi bi-lightning-fill  light-icon"></i>
+                  <a href="../index.html" class="d-inline on-shop-text" >EL-SHOP</a>
+              </div>
+
+          </div>
+          <div class="col-lg-4 col-sm-6 srch-col col-xxl-6 d-inline d-sm-block position-relative pt-2">
+              <div class="overflow-srch position-sm-absolute position-relative">
+                <div class="container srch-cont ">
+                    <i class="bi bi-search srch-icon"></i>
+                    <input type="text" class="srch-inp " placeholder="Search..." >
+                </div>
+              </div>
+
+          </div>
+          <div class="col-lg-4 col-sm-6 col-xxl-3 pe-3  pt-2">
+            <div class="row">
+              <div class="col-md-6 d-flex justify-content-sm-around align-items-center justify-content-between flex-row-reverse flex-sm-row py-2 py-sm-0 ">
+                <i class="bi bi-x-lg main-search"></i>
+                <div class="position-relative main-bskt" >
+                  <p class="bskt-item"><span class="bskt-num">4</span></p>
+                  <i class="bi bi-basket bskt-icon"></i>
+                </div>
+                
+              </div>
+              <div class="col-md-6">
+                <button type="button" class="btn sign-btn w-100 w-sm-100 w-md-auto "><i class="bi bi-person-circle person-bef "></i></button>
+
+              </div>
+            </div>
+
+          </div>
+      </div>
+  </div>
+</div>
+
+
+        <!-- categories-->
+
+        <nav class="navbar navbar-expand-lg navbar-light navbar-shadow ps-2 ps-sm-0 ">
+          <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav categories-nav">
+                <a class="nav-link" href="../index.html">Main</a>
+                <a class="nav-link" href="categories.html">All Categories</a>
+
+                <a class="nav-link" href="items.html">TV & Monitord</a>
+
+                <a class="nav-link disabled" href="#">Smartphone</a>
+                <a class="nav-link disabled" href="#">Computer</a>
+                <a class="nav-link disabled" href="#">Gaming Equipments</a>
+                <a class="nav-link disabled" href="#">Headphones</a>
+                <a class="nav-link disabled" href="#">Speaker</a>
+                <a class="nav-link disabled" href="#"> <i class="bi bi-sun-fill text-warning"></i> <b>HOT DEALS</b></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="container pt-5 d-block d-lg-none">
+
+          <div class="filter-hide">
+            <i class="bi bi-filter"></i>
+          </div>
+        </div>
+        
+
+
+<!--  filter categories -->
+    
+<div class="container-fluid py-5">
+    <div class="container-lg">
+        <div class="row">
+
+
+              <!-- left Side -->
+
+
+            <div class="col-lg-3 cat-mcol col-md-4  ">
+                <div class="flex-shrink-0  bg-white cat-list" >
+                    <h5 class="pb-3">Show All Categories</h5>
+                    <ul class="list-unstyled cat-ul ps-0">
+                      <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+                          Laptop&Computer <span class="text-secondary">(45)</span>
+                        </button>
+                        <div class="collapse ps-3 " id="home-collapse">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li>
+                              <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#hardware-collapse" aria-expanded="false">
+                                HardWare <span class="text-secondary">(55)</span>
+                            </button>
+                            <div class="collapse ps-3" id="hardware-collapse">
+                              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ps-1">
+                                <li><a href="#" class="link-dark rounded">Overview</a></li>
+                                <li><a href="#" class="link-dark rounded">Weekly</a></li>
+                                <li><a href="#" class="link-dark rounded">Monthly</a></li>
+                                <li><a href="#" class="link-dark rounded">Annually</a></li>
+                              </ul>
+                            </div>  
+                            </li>
+                            <li>
+                              <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#software-collapse" aria-expanded="false">
+                                SoftWare <span class="text-secondary">(78)</span>
+                            </button>
+                            <div class="collapse ps-3" id="software-collapse">
+                              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ps-1">
+                                <li><a href="#" class="link-dark rounded">Overview</a></li>
+                                <li><a href="#" class="link-dark rounded">Weekly</a></li>
+                                <li><a href="#" class="link-dark rounded">Monthly</a></li>
+                                <li><a href="#" class="link-dark rounded">Annually</a></li>
+                              </ul>
+                            </div>   
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#smartphone-collapse" aria-expanded="false">
+                            SmartPhone <span class="text-secondary">(144)</span>
+                        </button>
+                        <div class="collapse" id="smartphone-collapse">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ps-4">
+                            <li>
+                                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#samsung-collapse" aria-expanded="false">
+                                Samsung <span class="text-secondary">(88)</span>
+                            </button>
+                            <div class="collapse ps-3" id="samsung-collapse">
+                              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ps-1">
+                                <li><a href="#" class="link-dark rounded">Overview</a></li>
+                                <li><a href="#" class="link-dark rounded">Weekly</a></li>
+                                <li><a href="#" class="link-dark rounded">Monthly</a></li>
+                                <li><a href="#" class="link-dark rounded">Annually</a></li>
+                              </ul>
+                            </div>  
+                            </li>
+                            </li>
+                            <li>
+                                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#apple-collapse" aria-expanded="false">
+                                Apple <span class="text-secondary">(45)</span>
+                            </button>
+                            <div class="collapse ps-3" id="apple-collapse">
+                              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ps-1">
+                                <li><a href="#" class="link-dark rounded">Overview</a></li>
+                                <li><a href="#" class="link-dark rounded">Weekly</a></li>
+                                <li><a href="#" class="link-dark rounded">Monthly</a></li>
+                                <li><a href="#" class="link-dark rounded">Annually</a></li>
+                              </ul>
+                            </div>  
+                            </li>
+                            </li>
+                            <li>
+                                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#Huawei-collapse" aria-expanded="false">
+                                Huawei <span class="text-secondary">(99)</span>
+                            </button>
+                            <div class="collapse ps-3" id="Huawei-collapse">
+                              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ps-1">
+                                <li><a href="#" class="link-dark rounded">Overview</a></li>
+                                <li><a href="#" class="link-dark rounded">Weekly</a></li>
+                                <li><a href="#" class="link-dark rounded">Monthly</a></li>
+                                <li><a href="#" class="link-dark rounded">Annually</a></li>
+                              </ul>
+                            </div>  
+                            </li>
+                            </li>
+                            <li>
+                                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#Panasonic-collapse" aria-expanded="false">
+                                Panasonic <span class="text-secondary">(68)</span>
+                            </button>
+                            <div class="collapse ps-3" id="Panasonic-collapse">
+                              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ps-1">
+                                <li><a href="#" class="link-dark rounded">Overview</a></li>
+                                <li><a href="#" class="link-dark rounded">Weekly</a></li>
+                                <li><a href="#" class="link-dark rounded">Monthly</a></li>
+                                <li><a href="#" class="link-dark rounded">Annually</a></li>
+                              </ul>
+                            </div>  
+                            </li>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#tv-collapse" aria-expanded="false">
+                            TV <span class="text-secondary">(74)</span>
+                        </button>
+                        <div class="collapse" id="tv-collapse">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ps-4">
+                            <li><a href="#" class="link-dark rounded">New</a></li>
+                            <li><a href="#" class="link-dark rounded">Processed</a></li>
+                            <li><a href="#" class="link-dark rounded">Shipped</a></li>
+                            <li><a href="#" class="link-dark rounded">Returned</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#wireless-collapse" aria-expanded="false">
+                            Wireless Hardware <span class="text-secondary">(198)</span>
+                        </button>
+                        <div class="collapse" id="wireless-collapse">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ps-4">
+                            <li><a href="#" class="link-dark rounded">New...</a></li>
+                            <li><a href="#" class="link-dark rounded">Profile</a></li>
+                            <li><a href="#" class="link-dark rounded">Settings</a></li>
+                            <li><a href="#" class="link-dark rounded">Sign out</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#reality-collapse" aria-expanded="false">
+                            Virtual Reality <span class="text-secondary">(74)</span>
+                        </button>
+                        <div class="collapse" id="reality-collapse">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ps-4">
+                            <li><a href="#" class="link-dark rounded">New...</a></li>
+                            <li><a href="#" class="link-dark rounded">Profile</a></li>
+                            <li><a href="#" class="link-dark rounded">Settings</a></li>
+                            <li><a href="#" class="link-dark rounded">Sign out</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#ultra-collapse" aria-expanded="false">
+                            UltraBook<span class="text-secondary">(74)</span>
+                        </button>
+                        <div class="collapse" id="ultra-collapse">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ps-4">
+                            <li><a href="#" class="link-dark rounded">New...</a></li>
+                            <li><a href="#" class="link-dark rounded">Profile</a></li>
+                            <li><a href="#" class="link-dark rounded">Settings</a></li>
+                            <li><a href="#" class="link-dark rounded">Sign out</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#desk-collapse" aria-expanded="false">
+                            Desktop Pc <span class="text-secondary">(74)</span>
+                        </button>
+                        <div class="collapse" id="desk-collapse">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ps-4">
+                            <li><a href="#" class="link-dark rounded">New...</a></li>
+                            <li><a href="#" class="link-dark rounded">Profile</a></li>
+                            <li><a href="#" class="link-dark rounded">Settings</a></li>
+                            <li><a href="#" class="link-dark rounded">Sign out</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#speaker-collapse" aria-expanded="false">
+                            Speaker <span class="text-secondary">(74)</span>
+                        </button>
+                        <div class="collapse" id="speaker-collapse">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ps-4">
+                            <li><a href="#" class="link-dark rounded">New...</a></li>
+                            <li><a href="#" class="link-dark rounded">Profile</a></li>
+                            <li><a href="#" class="link-dark rounded">Settings</a></li>
+                            <li><a href="#" class="link-dark rounded">Sign out</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#pc-collapse" aria-expanded="false">
+                            Pc Components <span class="text-secondary">(74)</span>
+                        </button>
+                        <div class="collapse" id="pc-collapse">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ps-4">
+                            <li><a href="#" class="link-dark rounded">New...</a></li>
+                            <li><a href="#" class="link-dark rounded">Profile</a></li>
+                            <li><a href="#" class="link-dark rounded">Settings</a></li>
+                            <li><a href="#" class="link-dark rounded">Sign out</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+
+                  <div class="filter-main pt-5">
+                    <h2 class="py-3">FIlters</h2>
+                    <p class="text-secondary pb-2">price range</p>
+                    <input type="text" class="js-range-slider" name="my_range" value="">
+                    <div class="dropdown">
+                      <button class="btn  dropdown-toggle w-100 filter-chng" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown button
+                      </button>
+                      <ul class="dropdown-menu filter-inps" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </div>
+                    <div class="dropdown pt-2 ">
+                      <button class="btn  dropdown-toggle w-100 filter-chng " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown button
+                      </button>
+                      <ul class="dropdown-menu  filter-inps" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </div>
+                    <div class="d-flex justify-content-between py-4">
+                      <p class="text-secondary">Color</p>
+                      <div class="form-check ">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                        <label class="form-check-label text-secondary" for="flexCheckDefault3">
+                          Select All
+                        </label>
+                      </div> 
+                    </div>
+                    <div class="color-btns row-cols-4">
+                      <button type="button" class="btn btn-outline-secondary clrs-innbtn">White</button>
+                      <button type="button" class="btn btn-outline-secondary clrs-innbtn">Black</button>
+                      <button type="button" class="btn btn-outline-secondary clrs-innbtn">Blue</button>
+                      <button type="button" class="btn btn-outline-secondary clrs-innbtn mt-1">Red</button>
+                      <button type="button" class="btn btn-outline-secondary clrs-innbtn mt-1">Yellow</button>
+                    </div>
+                    <a href="#" class="sh-more-p">+Show more</a>
+                    <div class="py-3">
+                      <button type="button" class="btn d-block w-100 mt-4 filter-btn ">Filter</button>
+
+                    </div>
+                    <a href="#" class="text-center text-decoration-none orangeclr d-block pt-3"><b>Reset Filter</b></a>
+                  </div>
+            </div>
+
+
+            
+            
+
+
+
+                <!-- right side -->
+
+
+            <div class="col-lg-9  col-12 ps-lg-4 ps-2">
+                <div class="row shadow-row">
+                    <div class="col-md-8 col-xl-5 col-lg-7  shadow-mcol">
+                        <p class="text-md-secondary pt-4">MOST VIEWED CATEGORY</p>
+                        <h1>Laptop&Computers Category</h1>
+                        <p class="text-md-secondary pt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, ratione aspernatur harum aliquam dtetur quibusdam iusto nulla. Voluptate, laboriosam id!</p>
+                    </div>
+                    <div class="col-md-4 ps-0 col-xl-7 col-lg-5  d-none d-md-block">
+                        <div class="shadow-img">
+                            <img src="../imgs/macbook_pro_late2016_review-adam_pair_hero2-100693227-orig-4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="pt-4">Leptop Products</h3>
+                <div class="d-flex justify-content-md-between flex-column flex-md-row">
+                  <div>
+                    <p class="text-secodnary">showing 9 of 120 result</p>
+                  </div>
+                  <div class="row ">
+                    <div class="col d-sm-block d-none">
+                      <p class="text-secondary text-nowrap">Show by</p>
+                    </div>
+                    <div class="col">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                         Popularity
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Newest
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                        <label class="form-check-label" for="flexCheckDefault1">
+                          Trending
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col d-lg-flex d-none">
+                      <button class="listgrid-icon1 listgrid-icon bg-white d-flex"><i class="bi bi-grid-3x3-gap-fill grid-btn1"></i></button>
+                      <button class="listgrid-icon2 listgrid-icon bg-white d-flex"><i class="bi bi-list-ul fs-6 grid-btn2"></i></button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row flex-lg-column py-4 cat-row ">
+                  <div class="col-md-4 col-sm-6 col-lg-12 cat-cols">
+                    <div class="card mb-3 cat-card-bdy " >
+                      <div class="row g-0">
+                        <div class="col-lg-4 cat-inncols">
+                          <img src="../imgs/dlcdnwebimgs.asus_.jpg" class="img-fluid rounded-start h-100 cat-card-img"  alt="...">
+                        </div>
+                        <div class="col-lg-4 cat-inncols ps-1 ps-xl-3 pt-xl-0 pt-lg-3 pt-1">
+                          <div class="card-body p-1 p-xl-3 ">
+                            <span class="d-flex">
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <a class="text-secondary text-decoration-none">(12)</a>
+                              <a class="ps-3 ps-lg-5 orangeclr text-decoration-none"> Laptop</a>
+                            </span>
+                            <h6 class="pt-2">Macbook Pro 2020 with 260 SD</h6>
+                            <p class="card-text mb-0 mb-lg-2"><small class="text-muted">SKU 588744152668</small></p>
+                            <div class="checked-itt d-flex flex-column">
+                              <span><i class="bi bi-check orangeclr"></i> Direct Full Array</span>
+                              <span><i class="bi bi-check orangeclr"></i> Quantum Dot Technology</span>
+                              <span><i class="bi bi-check orangeclr"></i> Ambient Mode</span>
+                              <span><i class="bi bi-check orangeclr"></i> One Remote Control</span>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 cat-inncols">
+                          <div class="card-body py-1 py-lg-3">
+                            <div class=" justify-content-between d-none d-lg-flex">
+                              <span><i class="bi bi-truck text-secondary"></i> Free Delivery</span>
+                              <span><i class="bi bi-cash-stack text-secondary"></i> Voucher 35%</span>
+                            </div>
+                            
+                            <span class="top-nonprice  d-block pt-lg-5 pt-0">$1025.00</span>
+                            <p class=" top-price m-0 pb-lg-4 pb-2">$740.99 </p> 
+
+                            <div class="row cart-row pb-lg-1 pb-2 ">
+                              <div class=" col p-0 pe-2 ">
+                              <button type="button" class=" btn borangeclr text-white text-nowrap   bskt-btn-ctg"><i class="bi bi-cart-plus pe-2"></i><span class="d-none d-lg-inline">Add To Cart</span></button>
+
+                              </div>
+                              <div class=" col p-0">
+                              <button type="button" class=" btn btn-outline-secondary orangeclr hrt-btn"><i class="bi bi-heart"></i></button>
+
+                              </div>
+
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+  
+                  
+                  <div class="col-md-4 col-sm-6 col-lg-12 cat-cols">
+                    <div class="card mb-3 cat-card-bdy " >
+                      <div class="row g-0">
+                        <div class="col-lg-4 cat-inncols">
+                          <img src="../imgs/dlcdnwebimgs.asus_.jpg" class="img-fluid rounded-start h-100 cat-card-img"  alt="...">
+                        </div>
+                        <div class="col-lg-4 cat-inncols ps-1 ps-xl-3 pt-xl-0 pt-lg-3 pt-1">
+                          <div class="card-body p-1 p-xl-3 ">
+                            <span class="d-flex">
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <a class="text-secondary text-decoration-none">(12)</a>
+                              <a class="ps-3 ps-lg-5 orangeclr text-decoration-none"> Laptop</a>
+                            </span>
+                            <h6 class="pt-2">Macbook Pro 2020 with 260 SD</h6>
+                            <p class="card-text mb-0 mb-lg-2"><small class="text-muted">SKU 588744152668</small></p>
+                            <div class="checked-itt d-flex flex-column">
+                              <span><i class="bi bi-check orangeclr"></i> Direct Full Array</span>
+                              <span><i class="bi bi-check orangeclr"></i> Quantum Dot Technology</span>
+                              <span><i class="bi bi-check orangeclr"></i> Ambient Mode</span>
+                              <span><i class="bi bi-check orangeclr"></i> One Remote Control</span>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 cat-inncols">
+                          <div class="card-body py-1 py-lg-3">
+                            <div class=" justify-content-between d-none d-lg-flex">
+                              <span><i class="bi bi-truck text-secondary"></i> Free Delivery</span>
+                              <span><i class="bi bi-cash-stack text-secondary"></i> Voucher 35%</span>
+                            </div>
+                            
+                            <span class="top-nonprice  d-block pt-lg-5 pt-0">$1025.00</span>
+                            <p class=" top-price m-0 pb-lg-4 pb-2">$740.99 </p> 
+
+                            <div class="row cart-row pb-lg-1 pb-2 ">
+                              <div class=" col p-0 pe-2 ">
+                              <button type="button" class=" btn borangeclr text-white text-nowrap   bskt-btn-ctg"><i class="bi bi-cart-plus pe-2"></i><span class="d-none d-lg-inline">Add To Cart</span></button>
+
+                              </div>
+                              <div class=" col p-0">
+                              <button type="button" class=" btn btn-outline-secondary orangeclr hrt-btn"><i class="bi bi-heart"></i></button>
+
+                              </div>
+
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+
+
+                  <div class="col-md-4 col-sm-6 col-lg-12 cat-cols">
+                    <div class="card mb-3 cat-card-bdy " >
+                      <div class="row g-0">
+                        <div class="col-lg-4 cat-inncols">
+                          <img src="../imgs/dlcdnwebimgs.asus_.jpg" class="img-fluid rounded-start h-100 cat-card-img"  alt="...">
+                        </div>
+                        <div class="col-lg-4 cat-inncols ps-1 ps-xl-3 pt-xl-0 pt-lg-3 pt-1">
+                          <div class="card-body p-1 p-xl-3 ">
+                            <span class="d-flex">
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <a class="text-secondary text-decoration-none">(12)</a>
+                              <a class="ps-3 ps-lg-5 orangeclr text-decoration-none"> Laptop</a>
+                            </span>
+                            <h6 class="pt-2">Macbook Pro 2020 with 260 SD</h6>
+                            <p class="card-text mb-0 mb-lg-2"><small class="text-muted">SKU 588744152668</small></p>
+                            <div class="checked-itt d-flex flex-column">
+                              <span><i class="bi bi-check orangeclr"></i> Direct Full Array</span>
+                              <span><i class="bi bi-check orangeclr"></i> Quantum Dot Technology</span>
+                              <span><i class="bi bi-check orangeclr"></i> Ambient Mode</span>
+                              <span><i class="bi bi-check orangeclr"></i> One Remote Control</span>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 cat-inncols">
+                          <div class="card-body py-1 py-lg-3">
+                            <div class=" justify-content-between d-none d-lg-flex">
+                              <span><i class="bi bi-truck text-secondary"></i> Free Delivery</span>
+                              <span><i class="bi bi-cash-stack text-secondary"></i> Voucher 35%</span>
+                            </div>
+                            
+                            <span class="top-nonprice  d-block pt-lg-5 pt-0">$1025.00</span>
+                            <p class=" top-price m-0 pb-lg-4 pb-2">$740.99 </p> 
+
+                            <div class="row cart-row pb-lg-1 pb-2 ">
+                              <div class=" col p-0 pe-2 ">
+                              <button type="button" class=" btn borangeclr text-white text-nowrap   bskt-btn-ctg"><i class="bi bi-cart-plus pe-2"></i><span class="d-none d-lg-inline">Add To Cart</span></button>
+
+                              </div>
+                              <div class=" col p-0">
+                              <button type="button" class=" btn btn-outline-secondary orangeclr hrt-btn"><i class="bi bi-heart"></i></button>
+
+                              </div>
+
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+
+
+                  <div class="col-md-4 col-sm-6 col-lg-12 cat-cols">
+                    <div class="card mb-3 cat-card-bdy " >
+                      <div class="row g-0">
+                        <div class="col-lg-4 cat-inncols">
+                          <img src="../imgs/dlcdnwebimgs.asus_.jpg" class="img-fluid rounded-start h-100 cat-card-img"  alt="...">
+                        </div>
+                        <div class="col-lg-4 cat-inncols ps-1 ps-xl-3 pt-xl-0 pt-lg-3 pt-1">
+                          <div class="card-body p-1 p-xl-3 ">
+                            <span class="d-flex">
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <a class="text-secondary text-decoration-none">(12)</a>
+                              <a class="ps-3 ps-lg-5 orangeclr text-decoration-none"> Laptop</a>
+                            </span>
+                            <h6 class="pt-2">Macbook Pro 2020 with 260 SD</h6>
+                            <p class="card-text mb-0 mb-lg-2"><small class="text-muted">SKU 588744152668</small></p>
+                            <div class="checked-itt d-flex flex-column">
+                              <span><i class="bi bi-check orangeclr"></i> Direct Full Array</span>
+                              <span><i class="bi bi-check orangeclr"></i> Quantum Dot Technology</span>
+                              <span><i class="bi bi-check orangeclr"></i> Ambient Mode</span>
+                              <span><i class="bi bi-check orangeclr"></i> One Remote Control</span>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 cat-inncols">
+                          <div class="card-body py-1 py-lg-3">
+                            <div class=" justify-content-between d-none d-lg-flex">
+                              <span><i class="bi bi-truck text-secondary"></i> Free Delivery</span>
+                              <span><i class="bi bi-cash-stack text-secondary"></i> Voucher 35%</span>
+                            </div>
+                            
+                            <span class="top-nonprice  d-block pt-lg-5 pt-0">$1025.00</span>
+                            <p class=" top-price m-0 pb-lg-4 pb-2">$740.99 </p> 
+
+                            <div class="row cart-row pb-lg-1 pb-2 ">
+                              <div class=" col p-0 pe-2 ">
+                              <button type="button" class=" btn borangeclr text-white text-nowrap   bskt-btn-ctg"><i class="bi bi-cart-plus pe-2"></i><span class="d-none d-lg-inline">Add To Cart</span></button>
+
+                              </div>
+                              <div class=" col p-0">
+                              <button type="button" class=" btn btn-outline-secondary orangeclr hrt-btn"><i class="bi bi-heart"></i></button>
+
+                              </div>
+
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+
+
+                  <div class="col-md-4 col-sm-6 col-lg-12 cat-cols">
+                    <div class="card mb-3 cat-card-bdy " >
+                      <div class="row g-0">
+                        <div class="col-lg-4 cat-inncols">
+                          <img src="../imgs/dlcdnwebimgs.asus_.jpg" class="img-fluid rounded-start h-100 cat-card-img"  alt="...">
+                        </div>
+                        <div class="col-lg-4 cat-inncols ps-1 ps-xl-3 pt-xl-0 pt-lg-3 pt-1">
+                          <div class="card-body p-1 p-xl-3 ">
+                            <span class="d-flex">
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <a class="text-secondary text-decoration-none">(12)</a>
+                              <a class="ps-3 ps-lg-5 orangeclr text-decoration-none"> Laptop</a>
+                            </span>
+                            <h6 class="pt-2">Macbook Pro 2020 with 260 SD</h6>
+                            <p class="card-text mb-0 mb-lg-2"><small class="text-muted">SKU 588744152668</small></p>
+                            <div class="checked-itt d-flex flex-column">
+                              <span><i class="bi bi-check orangeclr"></i> Direct Full Array</span>
+                              <span><i class="bi bi-check orangeclr"></i> Quantum Dot Technology</span>
+                              <span><i class="bi bi-check orangeclr"></i> Ambient Mode</span>
+                              <span><i class="bi bi-check orangeclr"></i> One Remote Control</span>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 cat-inncols">
+                          <div class="card-body py-1 py-lg-3">
+                            <div class=" justify-content-between d-none d-lg-flex">
+                              <span><i class="bi bi-truck text-secondary"></i> Free Delivery</span>
+                              <span><i class="bi bi-cash-stack text-secondary"></i> Voucher 35%</span>
+                            </div>
+                            
+                            <span class="top-nonprice  d-block pt-lg-5 pt-0">$1025.00</span>
+                            <p class=" top-price m-0 pb-lg-4 pb-2">$740.99 </p> 
+
+                            <div class="row cart-row pb-lg-1 pb-2 ">
+                              <div class=" col p-0 pe-2 ">
+                              <button type="button" class=" btn borangeclr text-white text-nowrap   bskt-btn-ctg"><i class="bi bi-cart-plus pe-2"></i><span class="d-none d-lg-inline">Add To Cart</span></button>
+
+                              </div>
+                              <div class=" col p-0">
+                              <button type="button" class=" btn btn-outline-secondary orangeclr hrt-btn"><i class="bi bi-heart"></i></button>
+
+                              </div>
+
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+
+
+                  <div class="col-md-4 col-sm-6 col-lg-12 cat-cols">
+                    <div class="card mb-3 cat-card-bdy " >
+                      <div class="row g-0">
+                        <div class="col-lg-4 cat-inncols">
+                          <img src="../imgs/dlcdnwebimgs.asus_.jpg" class="img-fluid rounded-start h-100 cat-card-img"  alt="...">
+                        </div>
+                        <div class="col-lg-4 cat-inncols ps-1 ps-xl-3 pt-xl-0 pt-lg-3 pt-1">
+                          <div class="card-body p-1 p-xl-3 ">
+                            <span class="d-flex">
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <i class="bi bi-star-fill bdeal-icon pe-1"></i>
+                              <a class="text-secondary text-decoration-none">(12)</a>
+                              <a class="ps-3 ps-lg-5 orangeclr text-decoration-none"> Laptop</a>
+                            </span>
+                            <h6 class="pt-2">Macbook Pro 2020 with 260 SD</h6>
+                            <p class="card-text mb-0 mb-lg-2"><small class="text-muted">SKU 588744152668</small></p>
+                            <div class="checked-itt d-flex flex-column">
+                              <span><i class="bi bi-check orangeclr"></i> Direct Full Array</span>
+                              <span><i class="bi bi-check orangeclr"></i> Quantum Dot Technology</span>
+                              <span><i class="bi bi-check orangeclr"></i> Ambient Mode</span>
+                              <span><i class="bi bi-check orangeclr"></i> One Remote Control</span>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 cat-inncols">
+                          <div class="card-body py-1 py-lg-3">
+                            <div class=" justify-content-between d-none d-lg-flex">
+                              <span><i class="bi bi-truck text-secondary"></i> Free Delivery</span>
+                              <span><i class="bi bi-cash-stack text-secondary"></i> Voucher 35%</span>
+                            </div>
+                            
+                            <span class="top-nonprice  d-block pt-lg-5 pt-0">$1025.00</span>
+                            <p class=" top-price m-0 pb-lg-4 pb-2">$740.99 </p> 
+
+                            <div class="row cart-row pb-lg-1 pb-2 ">
+                              <div class=" col p-0 pe-2 ">
+                              <button type="button" class=" btn borangeclr text-white text-nowrap   bskt-btn-ctg"><i class="bi bi-cart-plus pe-2"></i><span class="d-none d-lg-inline">Add To Cart</span></button>
+
+                              </div>
+                              <div class=" col p-0">
+                              <button type="button" class=" btn btn-outline-secondary orangeclr hrt-btn"><i class="bi bi-heart"></i></button>
+
+                              </div>
+
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+
+
+
+
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- after two -->
+
+
+    <div class="container-fluid py-3">
+      <div class="container">
+        <div class="py-3 py-md-5">
+          <div class="d-flex justify-content-between">
+            <div class="d-flex">
+              <i class="bi bi-emoji-wink-fill wink-icon"></i>
+            <h2 class="m-0"> Related Products</h2>
+            </div>
+            <div class="d-flex align-items-md-center">
+              <div class="swiper-button-prev pop-srch-btn "><i class="fas fa-angle-left"></i></div>
+              <div class="swiper-button-next pop-srch-btn "><i class="fas fa-angle-right"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="swp-slider">
+          <div class="swiper mySwiper1 py-2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card top-main-card hotsale-bef" >
+                  <img src="../imgs/images.jfif" class=" top-card-imgs" alt="...">
+                  <div class="card-body">
+                    <p class=" top-price m-0 text-center">$860.99 </p> 
+                    <span class="top-nonprice text-center d-block">$999.00</span>
+                    <h5 class="card-title text-center text-nowrap fs-6">Digital Camera XF-21</h5>
+                    <div class="orng-line">
+                      <div class="orng-inline"></div>
+                    </div>
+                    <p class="text-center text-secondary">56 left stock</p>
+                    <button type="button" class="btn btn-outline-secondary w-100 hot-cart-btns">Add To cart</button>                      
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card top-main-card hotsale-bef" >
+                  <img src="../imgs/Dell-U-Series-Monitor-2019-Model.jpg" class=" top-card-imgs" alt="...">
+                  <div class="card-body">
+                    <p class=" top-price m-0 text-center">$740.99 </p> 
+                    <span class="top-nonprice text-center d-block">$1025.00</span>
+                    <h5 class="card-title text-center text-nowrap fs-6">Led Monitor High Quality</h5>
+                    <div class="orng-line">
+                      <div class="orng-inline w-25"></div>
+                    </div>
+                    <p class="text-center text-secondary">5 left stock</p>
+                    <button type="button" class="btn btn-outline-secondary w-100 hot-cart-btns">Add To cart</button>                      
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card top-main-card hotsale-bef " >
+                  <img src="../imgs/Best-High-Tech-Office-Essentials-0-Hero.jpg" class=" top-card-imgs" alt="...">
+                  <div class="card-body">
+                    <p class=" top-price m-0 text-center">$750.99 </p> 
+                    <span class="top-nonprice text-center d-block">$1500.00</span>
+                    <h5 class="card-title text-center text-nowrap fs-6">Set of equipements</h5>
+                    <div class="orng-line">
+                      <div class="orng-inline w-75"></div>
+                    </div>
+                    <p class="text-center text-secondary">14 left stock</p>
+                    <button type="button" class="btn btn-outline-secondary w-100 hot-cart-btns">Add To cart</button>                      
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card top-main-card hotsale-bef" >
+                  <img src="../imgs/download.jfif" class=" top-card-imgs" alt="...">
+                  <div class="card-body">
+                    <p class=" top-price m-0 text-center">$1999.99 </p> 
+                    <span class="top-nonprice text-center d-block">$2400.00</span>
+                    <h5 class="card-title text-center text-nowrap fs-6">Macbook Pro 2020 260USD</h5>
+                    <div class="orng-line">
+                      <div class="orng-inline w-100"></div>
+                    </div>
+                    <p class="text-center text-secondary">Out Of Stock</p>
+                    <button type="button" class="btn btn-outline-secondary w-100 hot-cart-btns">Add To cart</button>                      
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card top-main-card hotsale-bef" >
+                  <img src="../imgs/145728715-air-pods-pro-with-wireless-charging-case-new-airpods-pro-on-black-background-airpods-pro-copy-space-.jpg" class=" top-card-imgs" alt="...">
+                  <div class="card-body">
+                    <p class=" top-price m-0 text-center">$899.99 </p> 
+                    <span class="top-nonprice text-center d-block">$999.00</span>
+                    <h5 class="card-title text-center text-nowrap fs-6">Full Set AirPoD Devices</h5>
+                    <div class="orng-line">
+                      <div class="orng-inline"></div>
+                    </div>
+                    <p class="text-center text-secondary">56 left stock</p>
+                    <button type="button" class="btn btn-outline-secondary w-100 hot-cart-btns">Add To cart</button>                      
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card top-main-card hotsale-bef" >
+                  <img src="../imgs/camera-phone-laptop-a-photographer-s-desk.jpg" class=" top-card-imgs" alt="...">
+                  <div class="card-body">
+                    <p class=" top-price m-0 text-center">$899.99 </p> 
+                    <span class="top-nonprice text-center d-block">$999.00</span>
+                    <h5 class="card-title text-center text-nowrap fs-6">Full Set iPad Devices</h5>
+                    <div class="orng-line">
+                      <div class="orng-inline"></div>
+                    </div>
+                    <p class="text-center text-secondary">56 left stock</p>
+                    <button type="button" class="btn btn-outline-secondary w-100 hot-cart-btns">Add To cart</button>                      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+    
+    <!-- Recently viewed -->
+
+
+    <div class="container-fluid py-5">
+      <div class="container-fluid  container-lg">
+        <div class="py-3">
+          <div class="d-flex justify-content-sm-between justify-content-center">
+            <h2 class="m-0 d-none d-sm-block"> Recently viewed</h2>
+            <div class="pt-1 d-flex align-items-md-center">
+              <div class="swiper-button-prev3 pop-srch-btn "><i class="fas fa-angle-left"></i></div>
+              <div class="swiper-button-next3 pop-srch-btn "><i class="fas fa-angle-right"></i></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swp-slider">
+          <div class="swiper mySwiper3 ps-2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="row  py-4  d-flex w-100">
+                  <div class="col-6 pe-0 ">
+                    <img class="viewed-img" src="../imgs/camera-phone-laptop-a-photographer-s-desk.jpg" alt="">
+                  </div>
+                  <div class="col-6 d-flex flex-column justify-content-between">
+                    <p class="mb-0">Fitness and activity Tracker</p>
+                    <div>
+                      <p class="bdeal-price pt-2">$334.00</p>
+                      <span class="d-flex">
+                        <i class="bi bi-star-fill bdeal-icon"></i>
+                        <i class="bi bi-star-fill bdeal-icon"></i>
+                        <i class="bi bi-star-fill bdeal-icon"></i>
+                        <i class="bi bi-star-fill bdeal-icon"></i>
+                        <a class="text-secondary text-decoration-none">(12)</a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="row  py-4  d-flex w-100">
+                  <div class="col-6 pe-0 ">
+                    <img class="viewed-img" src="../imgs/Computer_black_mouse_with_wheel_isolated_on_gray_background-vector_illustration.jpg" alt="">
+                  </div>
+                  <div class="col-6 d-flex flex-column justify-content-between">
+                    <p class="mb-0">Fitness and activity Tracker</p>
+                    <div>
+                      <p class="bdeal-price pt-2">$334.00</p>
+                      <span class="d-flex">
+                        <i class="bi bi-star-fill bdeal-icon"></i>
+                        <i class="bi bi-star-fill bdeal-icon"></i>
+                        <i class="bi bi-star-fill bdeal-icon"></i>
+                        <i class="bi bi-star-fill bdeal-icon"></i>
+                        <a class="text-secondary text-decoration-none">(12)</a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="row  py-4  d-flex w-100">
+                  <div class="col-6 pe-0 ">
+                    <img class="viewed-img" src="../imgs/red-hearts-flying-from-one-ear-of-black-headphones-to-another-as-love-sound-on-a-gray-background-3d-rendering-2C4CD7T.jpg" alt="">
+                  </div>
+                  <div class="col-6 d-flex flex-column justify-content-between">
+                    <p class="mb-0">Fitness and activity Tracker</p>
+                    <div>
+                      <p class="bdeal-price pt-2">$89.00</p>
+                      <span class="d-flex">
+                        <i class="bi bi-star-fill bdeal-icon"></i>
+                        <i class="bi bi-star-fill bdeal-icon"></i>
+                        <i class="bi bi-star-fill bdeal-icon"></i>
+                        <i class="bi bi-star-fill bdeal-icon"></i>
+                        <a class="text-secondary text-decoration-none">(12)</a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="row  py-4  d-flex w-100">
+                  <div class="col-6 pe-0 ">
+                    <img class="viewed-img" src="../imgs/pexels-photo-1165005.jpeg" alt="">
+                  </div>
+                  <div class="col-6 d-flex flex-column justify-content-between">
+                    <p class="mb-0">Fitness and activity Tracker</p>
+                    <div>
+                      <p class="bdeal-price pt-2">$855.00</p>
+                      <span class="d-flex">
+                        <i class="bi bi-star-fill bdeal-icon"></i>
+                        <i class="bi bi-star-fill bdeal-icon"></i>
+                        <i class="bi bi-star-fill bdeal-icon"></i>
+                        <i class="bi bi-star-fill bdeal-icon"></i>
+                        <a class="text-secondary text-decoration-none">(12)</a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="row  py-4  d-flex w-100">
+                  <div class="col-6 pe-0 ">
+                    <img class="viewed-img" src="../imgs/stainless-smart-watch-isolated-grey-background_174496-87.jpg" alt="">
+                  </div>
+                  <div class="col-6 d-flex flex-column justify-content-between">
+                    <p class="mb-0">Fitness and activity Tracker</p>
+                    <div>
+                      <p class="bdeal-price pt-2">$334.00</p>
+                      <span class="d-flex">
+                        <i class="bi bi-star-fill bdeal-icon"></i>
+                        <i class="bi bi-star-fill bdeal-icon"></i>
+                        <i class="bi bi-star-fill bdeal-icon"></i>
+                        <i class="bi bi-star-fill bdeal-icon"></i>
+                        <a class="text-secondary text-decoration-none">(12)</a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- NewsLetter container -->
+
+
+    <div class="container-fluid py-5 newsletter">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-center">
+            <div class="col-md-3">
+              <i class="bi bi-envelope-open-fill letter-icon"></i>
+            </div>
+            <div class="col-md-9 ps-3 ps-md-0">
+              <h2 class="text-light">Sign Up for Newsletter</h2>
+              <p class="text-white pt-2">Lorem ipsum dolor sit amet consillum numquam! Consequatur expedita corporis, ipsum accusamus itaque beatae quaerat nemo.</p>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <div class="input-group px-0 px-md-3">
+              <input type="text" class="form-control p-3 letter-inp" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <div class="letter-btn position-absolute">
+                <button class="btn btn-secondary" type="button" id="button-addon2">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Footer -->
+
+<div class="container-fluid py-5">
+  <div class="container-xxl">
+    <div class="row justify-content-lg-around justify-content-md-between">
+      <div class="col-md-4 col">
+        <div class="">
+          <i class="bi bi-lightning-fill  light-icon"></i>
+          <h1 class="d-inline on-shop-text" >EL-Shop</h1>
+        </div>
+        <p class="py-3 text-secondary">Lorem ipsum doloibero nihil, sit expedita debitis n magnam cupiditate. Mollitia similique vel tempora quaerat?</p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn  soc-btns"><i class="bi bi-youtube"></i></button>
+          <button type="button" class="btn  soc-btns"><i class="bi bi-linkedin"></i></button>
+          <button type="button" class="btn  soc-btns"><i class="bi bi-twitter"></i></button>
+          <button type="button" class="btn  soc-btns"><i class="bi bi-facebook"></i></button>
+          <button type="button" class="btn  soc-btns"><i class="bi bi-instagram"></i></button>
+        </div>
+      </div>
+      <div class="col-md-4 d-xl-flex justify-content-around foot-lists d-none ">
+        <table>
+          <tr>
+            <th>QUICK LINKS</th>
+          </tr>
+          <tr>
+            <td><a href="">About us</a></td>
+          </tr>
+          <tr>
+            <td><a href="">Contact us</a></td>
+          </tr>
+          <tr>
+            <td><a href="">Products</a></td>
+          </tr>
+          <tr>
+            <td><a href="">Log in</a></td>
+          </tr>
+          <tr>
+            <td><a href="">Sign Up </a></td>
+          </tr>
+        </table>
+        
+        <table>
+          <tr>
+            <th>CUSTOMER AREA</th>
+          </tr>
+          <tr>
+            <td><a href="">My Account</a></td>
+          </tr>
+          <tr>
+            <td><a href="">Orders</a></td>
+          </tr>
+          <tr>
+            <td><a href="">Tracking Lists</a></td>
+          </tr>
+          <tr>
+            <td><a href="">Terms</a></td>
+          </tr>
+          <tr>
+            <td><a href="">Privacy Policy </a></td>
+          </tr>
+          <tr>
+            <td><a href="">My Cart</a></td>
+          </tr>
+        </table>
+        
+
+      </div>
+      <div class="col-xl-4 col-md-6 pt-md-0 pt-2">
+        <h5> Contact</h5>
+        <p>Lorem ipsum dolor sit ametmodi. Expedita, unde alias non nobis est veniam in, nulla quaerat!</p>
+        <div class="d-flex justify-content-between">
+          <div class="d-flex justify-content-between">
+            <div class="pe-3"><i class="bi bi-headset fs-1 text-secondary"></i></div>
+            <div>
+              <p class="mb-0 pt-2 ">Have any Question?</p>
+              <p class="contact-nump">+123 456 789</p>
+            </div>
+          </div>
+          <div class="pt-3">
+            <button type="button" class="btn btn-outline-info">LIVE CHAT</button>
+          </div>
+        </div>
+    
+        <div class="row justify-content-between pt-3">
+          <div class="col me-sm-2 me-1  ">
+            <div class="row appl-btn">
+              <div class="col-3 col-lg-4 justify-content-center align-items-center d-flex"><i class="fab fa-apple fs-1"></i></div>
+              <div class="col-9 col-lg-8">
+                <p class="mb-0 appl-p blockquote">Download on</p>
+                <p class="mb-0">App Store</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="col ms-sm-2  ">
+            <div class="row appl-btn">
+              <div class="col-3 col-lg-4 justify-content-center align-items-center d-flex"><i class="fab fa-google-play fs-3"></i></div>
+              <div class="col-9 col-lg-8" >
+                <p class="mb-0 appl-p">Geti it on</p>
+                <p class="mb-0">Google Play</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>  
+
+<!--  Last  -->
+<div class="container-fluid mt-2 mt-md-5 lfooter-fcont">
+  <div class="container ">
+    <div class="row justify-content-between">
+      <div class="col-lg-8 col-sm-6 d-flex align-items-center">
+        <p class="mb-0 text-secondary foot-p">EL-Shop - ©2021 All Right Reserved </p>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="row d-flex">
+          <div class="col foot-mimg"><img class="foot-minn" src="../imgs/Mastercard-Logo.wine.png" alt=""></div>
+          <div class="col foot-mimg"><img class="foot-minn" src="../imgs/unnamed.png" alt=""></div>
+          <div class="col foot-mimg"><img class="foot-minn" src="../imgs/PayPal-Logo.png" alt=""></div>
+          <div class="col foot-mimg"><img class="foot-minn" src="../imgs/Bitcoin-Logo.png" alt=""></div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+
+
+    <script src="../script.js"></script>
+</body>
+</html>
