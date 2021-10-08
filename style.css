@@ -22,6 +22,7 @@ body {
     object-fit: cover;
 
 }
+
 .nav-text {
     font-size: 18px;
     font-weight: 500;
@@ -96,4 +97,9 @@ body {
 .view-proj:hover {
     background-color: #6230b3;
 
+}
+@media (max-width:570px) {
+    .myprojects {
+        height: 125px;
+    }
 }

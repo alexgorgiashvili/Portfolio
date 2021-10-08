@@ -192,6 +192,7 @@ var swiper = new Swiper(".mySwiper", {
       0: {
         slidesPerView: 1,
         spaceBetween: 20,
+        slidesPerGroup:1 ,
       }, 
       640: {
         slidesPerView: 2,

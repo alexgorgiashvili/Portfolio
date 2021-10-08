@@ -493,10 +493,17 @@ font-family: sans-serif;
 
 @media  (max-width: 400px)  {
     .swipe-images {
-        height: 300px;
+        height: 250px;
     }
     .swipe-images h1 {
-        font-size: 18px;
+        font-size: 15px !important;
+        padding: 5px 0px !important;
+    }
+    .tech-info {
+        padding: 25px 20px !important;
+    }
+    .tech-info button {
+        margin-top: 0px !important;
     }
 }
 
@@ -506,6 +513,7 @@ font-family: sans-serif;
         top: 10px;
         z-index: 999;
     }
+
 }
 
 
@@ -768,6 +776,7 @@ font-family: sans-serif;
     align-items: center;
     font-size: 32px;
     color: #808080f2;
+    margin-left: 7px;
 
 }
 .filter-toggle {
@@ -925,6 +934,13 @@ border: 2px solid rgb(254, 114, 35);
      font-weight:700 ; 
      border: 2px solid rgb(254, 114, 35); 
 }
+.swipe-images h1 {
+    font-size: 23px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.514);
+    padding: 20px 0px;
+    font-family: none;
+}
 @media (max-width:990px) {
     .head-drop {
         background-color: white;
@@ -933,7 +949,9 @@ border: 2px solid rgb(254, 114, 35);
 }
 @media (max-width:330px) {
 
-    
+    .inch-btn1 {
+        margin-top: 5px;
+    }
 }
 
 
