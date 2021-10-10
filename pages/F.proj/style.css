@@ -2,14 +2,18 @@
     box-sizing: border-box;
     margin: 0;
 }
+:root {
+    --morange:rgb(254, 114, 35); 
+  
+}
 .orangeclr {
-    color:rgb(254, 114, 35) !important;
+    color:var(--morange) !important;
 }
 .borangeclr {
-    background-color:rgb(254, 114, 35) !important ;
+    background-color:var(--morange) !important ;
 }
 .upcontainer {
-    background-color: rgb(254, 114, 35) !important;
+    background-color: var(--morange) !important;
 }
 .lang-div {
     min-width: 4rem !important;
@@ -43,7 +47,7 @@
 }
 .light-icon {
     font-size: 33px;
-    color: rgb(254, 114, 35)  ;
+    color: var(--morange)  ;
 }
 .on-shop-text {
     font-weight: 700;
@@ -82,7 +86,7 @@
     height: 20px;
 }
 .sign-btn {
-    background-color: rgb(254, 114, 35) !important ;
+    background-color: var(--morange) !important ;
     padding: 10px 8px !important;
     color: white !important;
 }
@@ -110,7 +114,7 @@
 .bskt-item {
     width: 18px;
     height: 18px;
-    background-color: rgb(254, 114, 35);
+    background-color: var(--morange);
     border-radius: 50%;
     display: inline-block;
     position: absolute;
@@ -211,14 +215,14 @@ font-family: sans-serif;
     padding: 15px;
 }
 .swiper-pagination-bullet-active {
-    background-color:rgb(254, 114, 35) ;
+    background-color:var(--morange) ;
     width: 17px;
     height: 8px;
     border-radius: 5px;
     transition: all .6s;
 }
 .techinfo-price {
-    color: rgb(254, 114, 35);
+    color: var(--morange);
     font-size: 25px;
     font-weight: 600;
 }
@@ -231,11 +235,11 @@ font-family: sans-serif;
 }
 .bdeal-icon {
     font-size: 15px;
-    color:rgb(254, 114, 35) ;
+    color:var(--morange) ;
     padding-right: 3px;
 }
 .bdeal-price {
-    color: rgb(254, 114, 35);
+    color: var(--morange);
     font-weight: 700;
     margin: 0;
     padding-top: 30px;
@@ -282,7 +286,7 @@ font-family: sans-serif;
     width: 50px;
     max-width: 100%;
     height: 50px;
-    background-color: rgb(254, 114, 35);
+    background-color: var(--morange);
     border-radius: 50%;
     z-index: 999;
     position: absolute;
@@ -297,7 +301,7 @@ font-family: sans-serif;
 }
 .hot-cart-btns {
     border: 2px solid rgb(254 114 35 / 42%);
-    color: rgb(254, 114, 35);
+    color: var(--morange);
     border-radius: 9px;
     padding: 10px 0px;
     
@@ -305,11 +309,11 @@ font-family: sans-serif;
 }
 .hot-cart-btns:hover {
     background-color: rgb(254 114 35 / 42%) ;
-    border: 2px solid rgb(254, 114, 35);
+    border: 2px solid var(--morange);
 }
 
 .top-price {
-    color: rgb(254, 114, 35) ;
+    color: var(--morange) ;
     font-weight: 600;
 }
 .top-nonprice {
@@ -321,7 +325,7 @@ font-family: sans-serif;
 }
 .bdeal-icon1 {
     font-size: 15px;
-    color:rgb(254, 114, 35) ;
+    color:var(--morange) ;
     padding: 1px; 
 }
 .pop-srch-btn {
@@ -339,7 +343,7 @@ font-family: sans-serif;
     content: none;
 }
 .pop-srch-btn:hover {
-    color: rgb(254, 114, 35);
+    color: var(--morange);
 }
 .inn-mini-cards {
     border: 1px solid #dddddd;
@@ -349,10 +353,10 @@ font-family: sans-serif;
     position: relative;
     bottom: 28px;
     font-size: 35px;
-    color: rgb(254, 114, 35);
+    color: var(--morange);
 }
 .flash-cont {
-    background-color: rgb(254, 114, 35) ;
+    background-color: var(--morange) ;
     background-image: url(https://www.proimprint.com/blog/wp-content/uploads/2020/06/116.png);
     background-position: center;
     background-size: cover;
@@ -374,7 +378,7 @@ font-family: sans-serif;
 .orng-inline {
     width: 80%;
     height: 10px;
-    background-color: rgb(254, 114, 35);
+    background-color: var(--morange);
     border-radius: 12px;
 }
 .swiper-pagination2 span {
@@ -405,7 +409,7 @@ font-family: sans-serif;
 .wink-icon {
     font-size: 27px;
     padding-right: 10px;
-    color: rgb(254, 114, 35);
+    color: var(--morange);
 }
 .logo-icon-btns {
     position: absolute;
@@ -440,7 +444,7 @@ font-family: sans-serif;
     font-weight: 700;
 }
 .newsletter {
-    background-color: rgb(254, 114, 35);
+    background-color: var(--morange);
 }
 .letter-icon {
     font-size: 80px !important;
@@ -465,7 +469,7 @@ font-family: sans-serif;
     color: gray;
 }
 .contact-nump {
-    color:rgb(254, 114, 35) ;
+    color:var(--morange) ;
     font-weight: 700;
 }
 .appl-btn {
@@ -520,7 +524,7 @@ font-family: sans-serif;
 
 @media  (max-width: 991px) {
     .dropdown-menu {
-        background-color: rgb(254, 114, 35) ;
+        background-color: var(--morange) ;
         border: none;
     }
     .dropdown-item {
@@ -643,7 +647,7 @@ font-family: sans-serif;
 }
 .form-check-input:checked {
 
-    background-color: rgb(254, 114, 35) !important ;
+    background-color: var(--morange) !important ;
     border: none !important;
 }
 .listgrid-icon {
@@ -660,8 +664,8 @@ font-family: sans-serif;
     transition: all .3s;
 }
 .hrt-btn:hover {
-    border: 2ox solid rgb(254, 114, 35) !important;
-    background-color: rgb(254, 114, 35);
+    border: 2ox solid var(--morange) !important;
+    background-color: var(--morange);
     color: white !important;
 }
 .bskt-btn-ctg:hover {
@@ -683,14 +687,14 @@ font-family: sans-serif;
 .irs--flat .irs-bar {
     top: 25px;
     height: 6px;
-    background-color: rgb(254, 114, 35) !important;
+    background-color: var(--morange) !important;
 }
 .irs--flat .irs-handle>i:first-child {
     top: -1px;
     width: 15px;
     height: 15px;
     margin-left: -6px;
-    background-color: rgb(254, 114, 35) ;
+    background-color: var(--morange) ;
     border-radius: 50%;
 }
 .irs--flat .irs-line {
@@ -700,10 +704,10 @@ font-family: sans-serif;
     border-radius: 4px;
 }
 .irs-to {
-    background-color:rgb(254, 114, 35) !important ;
+    background-color:var(--morange) !important ;
 }
 .irs-from {
-    background-color:rgb(254, 114, 35) !important ;
+    background-color:var(--morange) !important ;
 }
 .form-check-input:focus {
     border-color: none;
@@ -712,16 +716,16 @@ font-family: sans-serif;
 }
 .clrs-innbtn {
     border: 2px solid rgb(254 114 35 / 16%);
-    color: rgb(254, 114, 35);
+    color: var(--morange);
 }
 .clrs-innbtn:hover {
     color: white;
-    background-color: rgb(254, 114, 35);
+    background-color: var(--morange);
     box-shadow: 0px 0px 1px 1px #9fb43f85;
-    border: 2px solid rgb(254, 114, 35);
+    border: 2px solid var(--morange);
 }
 .sh-more-p {
-    color: rgb(254, 114, 35);
+    color: var(--morange);
     font-weight: 600;
     padding: 15px 0px;
     display:inline-block;
@@ -753,7 +757,7 @@ font-family: sans-serif;
 }
 .filter-btn {
     border-radius: 9px;
-    background-color: rgb(254, 114, 35);
+    background-color: var(--morange);
     padding: 13px;
     color: white;
     font-size: 19px;
@@ -827,7 +831,7 @@ font-family: sans-serif;
     }
     .clrs-innbtn {
         border: 2px solid rgb(254 114 35 / 16%);
-        color: rgb(254, 114, 35);
+        color: var(--morange);
         padding: 5px 8px !important;
         width: 65px;
         max-width: 100%;
@@ -861,12 +865,12 @@ font-family: sans-serif;
 }
 .swiper-slide-thumb-active {
 padding: 5px;
-border: 2px solid rgb(254, 114, 35);
+border: 2px solid var(--morange);
 
 }
 
 .hrt-icon:hover {
-    color: rgb(254, 114, 35) !important;
+    color: var(--morange) !important;
     cursor: pointer;
 }
 .cat-price {
@@ -887,7 +891,7 @@ border: 2px solid rgb(254, 114, 35);
 }
 .inch-btn:hover , .count-buy:hover {
     background-color: #ffa50040;
-    color:rgb(254, 114, 35) ;
+    color:var(--morange) ;
     border: 2px solid #ffa50040;
 }
 .count-inp {
@@ -898,7 +902,7 @@ border: 2px solid rgb(254, 114, 35);
     padding: 8px 0px;
     border: 2px solid #8080804a;
     border-radius: 8px;
-    color: rgb(254, 114, 35);
+    color: var(--morange);
 }
 .count-dash {
     position: absolute;
@@ -920,7 +924,7 @@ border: 2px solid rgb(254, 114, 35);
 }
 .count-buy {
     border: 2px solid #ebad3b;
-    color: rgb(254, 114, 35);
+    color: var(--morange);
     padding: 8px 26px;
     border-radius: 9px;
     font-weight:700;
@@ -929,10 +933,10 @@ border: 2px solid rgb(254, 114, 35);
 .count-cart {
     padding: 8px 45px;
     border-radius: 9px;
-    background-color: rgb(254, 114, 35);
+    background-color: var(--morange);
     color: white;
      font-weight:700 ; 
-     border: 2px solid rgb(254, 114, 35); 
+     border: 2px solid var(--morange); 
 }
 .swipe-images h1 {
     font-size: 23px;
@@ -952,6 +956,143 @@ border: 2px solid rgb(254, 114, 35);
     .inch-btn1 {
         margin-top: 5px;
     }
+}
+
+
+
+/* smartphone page  */
+
+
+.mainrow {
+    width: 70%;
+    border: 2px solid gray;
+}
+.phimg {
+    width: 100%;
+    object-fit: contain;
+    height: 600px;
+}
+.obj {
+    padding-top: 5rem;
+}
+.sale {
+    border: 3px solid var(--morange);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 4px 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: gray;
+    box-shadow: 3px 3px 3px rgb(254 114 35 / 62%);
+}
+
+.clrrow {
+    width: 50%;
+    --bs-gutter-x: 0 !important;
+}
+.circlediv {
+    width: 100%;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid gray;
+    padding: 15px;
+    cursor: pointer;
+}
+.capdiv {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #80808040;
+    position: relative;
+    cursor: pointer;
+}
+.capdiv p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+}
+.cardiv i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+}
+.cardiv {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s;
+}
+.cardiv:hover {
+    background-color: #80808040;
+
+}
+#numinp {
+    width: 60px;
+    background-color: #dddcdc;
+}
+.tog {
+    transform: scale(0.5);
+    transition: all 0.5s;
+}
+.xx-green{
+    position: absolute;
+    top: -7px;
+    right: 1px;
+    font-size: 29px;
+    color: #116611;
+}
+.disable {
+    pointer-events: none; 
+    display: block;
+}
+.pricebor {
+    border: 3px solid rgb(254 114 35 / 56%);
+}
+.line {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+.count-phone {
+    outline: none;
+    width: 80px;
+    max-width: 100%;
+    text-align: center;
+    padding: 4px 0px;
+    border: 2px solid #8080804a;
+    border-radius: 8px;
+    color: var(--morange);
+}
+.pcount-dash {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #808080ad;
+    transform: translate(-50%, -50%);
+}
+.pcount-plus {
+    position: absolute;
+    bottom: 3px;
+    left: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #808080d4;
+    user-select: none;
+}
+.phone-cart {
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 30px;
+    background-color: var(--morange);
+
 }
 
 
