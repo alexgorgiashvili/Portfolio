@@ -991,7 +991,7 @@ border: 2px solid var(--morange);
     --bs-gutter-x: 0 !important;
 }
 .circlediv {
-    width: 100%;
+    width: 30px;
     height: 30px;
     border-radius: 50%;
     border: 3px solid gray;
@@ -1093,6 +1093,20 @@ border: 2px solid var(--morange);
     padding: 6px 30px;
     background-color: var(--morange);
 
+}
+@media (max-width: 768px) {
+    .phimg {
+        height: 400px;
+        
+    }
+    .capacity {
+        justify-content: center;       
+    }
+}
+@media (max-width: 568px) {
+    .clrrow {
+        width: 100%;
+    }
 }
 
 
