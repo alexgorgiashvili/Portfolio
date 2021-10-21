@@ -628,6 +628,20 @@ input::placeholder {
     width: 100%;
     height: 500px;
 }
+.item2 {
+    background-image: url(img/blog-carousel1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.item3 {
+    background-image: url(img/blog-carousel-2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
 @media (max-width:1200px){
     .ab-us-col1 {
         left: 0;
