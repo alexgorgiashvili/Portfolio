@@ -1,15 +1,4 @@
-// $(".nav-text").mouseover(function(){
-//     $(this).next().animate({
-//         "width": "100%"
-//     });
-//     console.log($(this).next())
-//   });
-//   $(".nav-text").mouseover(function(){
-//     $(this).next().animate({
-//         "width": "100%"
-//     });
-//     console.log($(this).next())
-//   });
+
 $(".nav-text").hover(function() { 
     $(this).next().stop(true).animate({
         "width": "100%"
@@ -22,10 +11,10 @@ $(".nav-text").hover(function() {
 
 $(".myprojects").hover(
     function (){
-    $(this).children().children().fadeIn(500)
+    $(this).children().fadeIn(500)
 },
     function() {
-        $(this).children().children().hide(100)
+        $(this).children().hide(100)
         
     });
 
