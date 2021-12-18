@@ -2,7 +2,8 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background: url(https://www.toptal.com/designers/subtlepatterns/patterns/dark_wall.png) repeat;
-    color:var(--bs-white)
+    color:var(--bs-white);
+	background-color: #fef9f8 ;
 }
 
 *{
@@ -24,9 +25,13 @@ html {
     }
 }
 :root {
-    --bs-green: #48DA9B;
-    --bs-border: #403F44;
+	
+    /* --bs-green: #ef9273;
+	--bs-white: #0d0d0d; */
+
+	--bs-green: #48DA9B;
     --bs-white: #e4e3e8;
+	--bs-border: #403F44;
     --bs-purple: #837c9a;
 }
 
@@ -185,7 +190,7 @@ html {
  
  .content-3 img {
 	width: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
 	height: 300px;
 	border-radius: 3px;
  }

@@ -11,7 +11,7 @@ $(".nav-text").hover(function() {
 
 $(".myprojects").hover(
     function (){
-    $(this).children().fadeIn(500)
+        $(this).children().fadeIn(500)
 },
     function() {
         $(this).children().hide(100)
