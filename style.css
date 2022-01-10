@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/dark_wall.png) repeat;
+    background: url(imgss/dark_wall.png) repeat;
     color:var(--bs-white);
 	background-color: #fef9f8 ;
 }
